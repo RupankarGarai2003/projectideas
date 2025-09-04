@@ -1,0 +1,754 @@
+{
+  "categories": [
+    {
+      "id": "school",
+      "title": "School Projects",
+      "description": "Educational projects designed for K-12 students to learn programming fundamentals and basic computer science concepts.",
+      "icon": "🎒",
+      "projects": [
+        {
+          "id": "calculator",
+          "title": "Basic Calculator",
+          "description": "A simple calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
+          "tags": ["math", "beginner", "gui", "functions", "arithmetic"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "number-guessing",
+          "title": "Number Guessing Game",
+          "description": "An interactive game where players guess a randomly generated number with hints provided for each attempt.",
+          "tags": ["game", "random", "loops", "conditionals", "user-input"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "grade-tracker",
+          "title": "Student Grade Tracker",
+          "description": "A system to track and calculate student grades with options to add subjects, assignments, and generate report cards.",
+          "tags": ["education", "data-storage", "calculations", "reports", "school"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "digital-clock",
+          "title": "Digital Clock",
+          "description": "A real-time digital clock display with customizable formats, alarms, and timezone support.",
+          "tags": ["time", "gui", "real-time", "datetime", "display"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "password-generator",
+          "title": "Password Generator",
+          "description": "A tool that generates secure passwords with customizable length, character sets, and complexity requirements.",
+          "tags": ["security", "random", "strings", "validation", "utility"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "tic-tac-toe",
+          "title": "Tic Tac Toe Game",
+          "description": "Classic two-player game with win detection, score tracking, and options for player vs computer modes.",
+          "tags": ["game", "logic", "2d-array", "ai", "strategy"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "college",
+      "title": "College Projects",
+      "description": "Intermediate to advanced projects suitable for college-level computer science and engineering curricula.",
+      "icon": "🎓",
+      "projects": [
+        {
+          "id": "library-management",
+          "title": "Library Management System",
+          "description": "A comprehensive system for managing books, members, borrowing records, and generating reports with database integration.",
+          "tags": ["database", "crud", "management", "reports", "system"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "student-portal",
+          "title": "Student Information System",
+          "description": "A web-based platform for managing student records, course enrollment, grades, and academic progress tracking.",
+          "tags": ["web", "database", "authentication", "dashboard", "education"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "inventory-system",
+          "title": "Inventory Management System",
+          "description": "A system to track products, suppliers, stock levels, and automate reorder notifications with reporting features.",
+          "tags": ["inventory", "database", "automation", "business", "reports"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "chat-application",
+          "title": "Real-time Chat Application",
+          "description": "A messaging platform with real-time communication, user authentication, group chats, and file sharing capabilities.",
+          "tags": ["real-time", "websockets", "messaging", "authentication", "social"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "expense-tracker",
+          "title": "Personal Finance Tracker",
+          "description": "An application to track income, expenses, budgets, and generate financial reports with data visualization.",
+          "tags": ["finance", "data-visualization", "budgeting", "analytics", "personal"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "quiz-platform",
+          "title": "Online Quiz Platform",
+          "description": "A platform for creating, taking, and grading quizzes with timer functionality and result analytics.",
+          "tags": ["education", "testing", "timer", "analytics", "assessment"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "final-year",
+      "title": "Final Year Projects",
+      "description": "Comprehensive capstone projects that demonstrate mastery of software development concepts and real-world problem-solving.",
+      "icon": "🏆",
+      "projects": [
+        {
+          "id": "smart-parking",
+          "title": "Smart Parking Management System",
+          "description": "IoT-based parking solution with real-time space detection, mobile app integration, and payment processing.",
+          "tags": ["iot", "mobile", "sensors", "real-time", "smart-city"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "ai-recommendation",
+          "title": "AI-Powered Recommendation Engine",
+          "description": "Machine learning system that provides personalized recommendations for e-commerce, content, or services.",
+          "tags": ["ai", "machine-learning", "algorithms", "data-analysis", "personalization"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "blockchain-voting",
+          "title": "Blockchain Voting System",
+          "description": "Secure, transparent voting platform using blockchain technology with voter verification and tamper-proof records.",
+          "tags": ["blockchain", "security", "voting", "cryptography", "decentralized"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "telemedicine",
+          "title": "Telemedicine Platform",
+          "description": "Healthcare platform enabling remote consultations, appointment scheduling, medical records management, and prescription handling.",
+          "tags": ["healthcare", "video-calling", "appointments", "medical-records", "telemedicine"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "autonomous-drone",
+          "title": "Autonomous Drone Navigation",
+          "description": "AI-controlled drone system with computer vision, path planning, obstacle avoidance, and mission execution capabilities.",
+          "tags": ["ai", "computer-vision", "robotics", "autonomous", "navigation"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "smart-home",
+          "title": "Smart Home Automation",
+          "description": "Comprehensive home automation system with IoT device control, energy monitoring, security features, and voice commands.",
+          "tags": ["iot", "automation", "voice-control", "sensors", "smart-home"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "service-based",
+      "title": "Service-Based Projects",
+      "description": "Projects focused on providing specific services or solving real business problems with practical applications.",
+      "icon": "🔧",
+      "projects": [
+        {
+          "id": "appointment-booking",
+          "title": "Appointment Booking System",
+          "description": "A service for businesses to manage appointments with calendar integration, notifications, and customer management.",
+          "tags": ["booking", "calendar", "notifications", "business", "scheduling"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "invoice-generator",
+          "title": "Invoice Generator Service",
+          "description": "Automated invoice creation and management system with PDF generation, payment tracking, and client management.",
+          "tags": ["invoicing", "pdf", "payments", "business", "automation"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "file-converter",
+          "title": "File Format Converter",
+          "description": "Online service to convert between different file formats including documents, images, audio, and video files.",
+          "tags": ["file-conversion", "formats", "processing", "utility", "cloud"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "url-shortener",
+          "title": "URL Shortening Service",
+          "description": "A service to create short URLs with analytics, custom domains, expiration dates, and click tracking.",
+          "tags": ["url", "analytics", "tracking", "web-service", "utility"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "email-automation",
+          "title": "Email Marketing Automation",
+          "description": "Service for creating and managing email campaigns with templates, scheduling, and performance analytics.",
+          "tags": ["email", "marketing", "automation", "templates", "analytics"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "backup-service",
+          "title": "Cloud Backup Service",
+          "description": "Automated backup solution for files and databases with encryption, versioning, and scheduled backups.",
+          "tags": ["backup", "cloud", "encryption", "automation", "storage"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "mini",
+      "title": "Mini Projects",
+      "description": "Quick, focused projects that can be completed in a short time frame, perfect for learning specific concepts.",
+      "icon": "⚡",
+      "projects": [
+        {
+          "id": "weather-widget",
+          "title": "Weather Widget",
+          "description": "A simple widget displaying current weather conditions and forecasts using a weather API.",
+          "tags": ["api", "weather", "widget", "frontend", "json"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "qr-generator",
+          "title": "QR Code Generator",
+          "description": "Tool to generate QR codes for text, URLs, or contact information with customizable size and colors.",
+          "tags": ["qr-code", "generator", "utility", "encoding", "image"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "color-palette",
+          "title": "Color Palette Generator",
+          "description": "Generate random color palettes or extract colors from images for design and art projects.",
+          "tags": ["colors", "design", "palette", "art", "generator"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "unit-converter",
+          "title": "Unit Converter",
+          "description": "Convert between different units of measurement including length, weight, temperature, and currency.",
+          "tags": ["conversion", "units", "calculator", "utility", "math"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "markdown-preview",
+          "title": "Markdown Previewer",
+          "description": "Real-time markdown editor and previewer with syntax highlighting and export options.",
+          "tags": ["markdown", "editor", "preview", "syntax", "documentation"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "pomodoro-timer",
+          "title": "Pomodoro Timer",
+          "description": "Productivity timer following the Pomodoro Technique with customizable intervals and break reminders.",
+          "tags": ["productivity", "timer", "focus", "breaks", "notifications"],
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "major",
+      "title": "Major Projects",
+      "description": "Large-scale, comprehensive projects that demonstrate full-stack development skills and complex system design.",
+      "icon": "🏗️",
+      "projects": [
+        {
+          "id": "ecommerce-platform",
+          "title": "E-commerce Platform",
+          "description": "Complete online shopping platform with product catalog, shopping cart, payment processing, and order management.",
+          "tags": ["ecommerce", "payments", "inventory", "user-management", "fullstack"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "social-media",
+          "title": "Social Media Platform",
+          "description": "Full-featured social networking site with user profiles, posts, messaging, notifications, and content feeds.",
+          "tags": ["social", "messaging", "feeds", "notifications", "user-profiles"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "learning-management",
+          "title": "Learning Management System",
+          "description": "Educational platform with course creation, student enrollment, progress tracking, assessments, and certification.",
+          "tags": ["education", "courses", "assessments", "progress-tracking", "certification"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "project-management",
+          "title": "Project Management Tool",
+          "description": "Collaborative platform for managing projects, tasks, teams, deadlines, and resource allocation with reporting.",
+          "tags": ["project-management", "collaboration", "tasks", "teams", "reporting"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "video-streaming",
+          "title": "Video Streaming Platform",
+          "description": "Netflix-like platform with video upload, streaming, user subscriptions, recommendations, and content management.",
+          "tags": ["video", "streaming", "subscriptions", "recommendations", "content"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "crm-system",
+          "title": "Customer Relationship Management",
+          "description": "Business CRM with lead tracking, customer data management, sales pipeline, and automated marketing workflows.",
+          "tags": ["crm", "sales", "customers", "pipeline", "automation"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "web-development",
+      "title": "Web Development Projects",
+      "description": "Frontend and backend web projects focusing on modern web technologies and responsive design principles.",
+      "icon": "🌐",
+      "projects": [
+        {
+          "id": "portfolio-website",
+          "title": "Personal Portfolio Website",
+          "description": "Professional portfolio showcasing projects, skills, experience, and contact information with modern design.",
+          "tags": ["portfolio", "responsive", "showcase", "personal", "frontend"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "blog-platform",
+          "title": "Blog Publishing Platform",
+          "description": "Content management system for creating, editing, and publishing blog posts with comments and user management.",
+          "tags": ["blog", "cms", "content", "publishing", "comments"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "restaurant-website",
+          "title": "Restaurant Website with Ordering",
+          "description": "Restaurant website with menu display, online ordering system, table reservations, and customer reviews.",
+          "tags": ["restaurant", "ordering", "menu", "reservations", "business"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "news-aggregator",
+          "title": "News Aggregator",
+          "description": "Platform that collects and displays news from multiple sources with categorization and personalized feeds.",
+          "tags": ["news", "api", "aggregation", "feeds", "content"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-board",
+          "title": "Job Board Platform",
+          "description": "Job listing website with employer posting, candidate applications, search filters, and profile matching.",
+          "tags": ["jobs", "search", "applications", "profiles", "matching"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "real-estate",
+          "title": "Real Estate Listing Site",
+          "description": "Property listing platform with search filters, virtual tours, agent profiles, and inquiry management.",
+          "tags": ["real-estate", "search", "listings", "agents", "properties"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "app-development",
+      "title": "App Development Projects",
+      "description": "Mobile and desktop application projects using modern frameworks and cross-platform development tools.",
+      "icon": "📱",
+      "projects": [
+        {
+          "id": "todo-app",
+          "title": "Advanced Todo App",
+          "description": "Feature-rich task management app with categories, deadlines, reminders, collaboration, and progress analytics.",
+          "tags": ["productivity", "tasks", "reminders", "collaboration", "mobile"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "fitness-tracker",
+          "title": "Fitness Tracking App",
+          "description": "Health and fitness app with workout logging, progress tracking, goal setting, and integration with wearable devices.",
+          "tags": ["fitness", "health", "tracking", "goals", "wearables"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "expense-app",
+          "title": "Expense Management App",
+          "description": "Personal finance app for tracking expenses, setting budgets, categorizing spending, and generating financial insights.",
+          "tags": ["finance", "expenses", "budgets", "analytics", "personal"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "note-taking",
+          "title": "Note-Taking App",
+          "description": "Digital notebook with rich text editing, organization features, search functionality, and cloud synchronization.",
+          "tags": ["notes", "editor", "organization", "sync", "productivity"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "habit-tracker",
+          "title": "Habit Tracking App",
+          "description": "App to build and maintain habits with streak tracking, reminders, progress visualization, and motivational features.",
+          "tags": ["habits", "tracking", "streaks", "motivation", "personal-growth"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "recipe-app",
+          "title": "Recipe Management App",
+          "description": "Cooking app with recipe storage, meal planning, shopping list generation, and nutritional information.",
+          "tags": ["cooking", "recipes", "meal-planning", "nutrition", "lifestyle"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "fun",
+      "title": "Fun Projects",
+      "description": "Creative and entertaining projects designed for enjoyment while learning programming concepts through play.",
+      "icon": "🎮",
+      "projects": [
+        {
+          "id": "snake-game",
+          "title": "Snake Game",
+          "description": "Classic snake game with growing snake, food collection, collision detection, and high score tracking.",
+          "tags": ["game", "canvas", "collision", "score", "classic"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "meme-generator",
+          "title": "Meme Generator",
+          "description": "Tool to create memes by adding text to popular images with font customization and sharing capabilities.",
+          "tags": ["memes", "image-editing", "text", "sharing", "humor"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "music-visualizer",
+          "title": "Music Visualizer",
+          "description": "Audio visualization tool that creates dynamic visual effects synchronized with music using Web Audio API.",
+          "tags": ["audio", "visualization", "music", "graphics", "animation"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "trivia-game",
+          "title": "Trivia Quiz Game",
+          "description": "Interactive trivia game with multiple categories, scoring system, leaderboards, and multiplayer options.",
+          "tags": ["trivia", "quiz", "multiplayer", "scoring", "knowledge"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "pixel-art",
+          "title": "Pixel Art Creator",
+          "description": "Digital art tool for creating pixel art with drawing tools, color palettes, layers, and animation features.",
+          "tags": ["art", "drawing", "pixels", "animation", "creative"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "virtual-pet",
+          "title": "Virtual Pet Game",
+          "description": "Digital pet simulation with feeding, playing, health monitoring, evolution, and interactive mini-games.",
+          "tags": ["simulation", "pet", "game", "virtual", "interaction"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Python Projects",
+      "description": "Projects specifically designed for Python programming, showcasing the language's versatility and powerful libraries.",
+      "icon": "🐍",
+      "projects": [
+        {
+          "id": "web-scraper",
+          "title": "Web Scraping Tool",
+          "description": "Automated tool to extract data from websites with scheduling, data cleaning, and export to various formats.",
+          "tags": ["scraping", "automation", "data-extraction", "beautifulsoup", "requests"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "data-visualization",
+          "title": "Data Visualization Dashboard",
+          "description": "Interactive dashboard for analyzing and visualizing data with charts, graphs, and statistical insights.",
+          "tags": ["data-science", "matplotlib", "plotly", "pandas", "visualization"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "chatbot",
+          "title": "AI Chatbot",
+          "description": "Intelligent chatbot using natural language processing with conversation memory and learning capabilities.",
+          "tags": ["nlp", "ai", "chatbot", "machine-learning", "conversation"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "api-framework",
+          "title": "REST API with FastAPI",
+          "description": "High-performance REST API with authentication, database integration, documentation, and testing suite.",
+          "tags": ["api", "fastapi", "rest", "authentication", "database"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "image-processor",
+          "title": "Image Processing Tool",
+          "description": "Tool for batch image processing with filters, resizing, format conversion, and automated enhancement features.",
+          "tags": ["image-processing", "pillow", "batch", "filters", "automation"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "stock-analyzer",
+          "title": "Stock Market Analyzer",
+          "description": "Financial analysis tool with stock data retrieval, technical indicators, portfolio tracking, and prediction models.",
+          "tags": ["finance", "stocks", "analysis", "prediction", "data"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Java Projects",
+      "description": "Object-oriented projects leveraging Java's enterprise capabilities and robust ecosystem for scalable applications.",
+      "icon": "☕",
+      "projects": [
+        {
+          "id": "banking-system",
+          "title": "Banking Management System",
+          "description": "Enterprise banking application with account management, transactions, loan processing, and security features.",
+          "tags": ["banking", "transactions", "security", "enterprise", "financial"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "hospital-management",
+          "title": "Hospital Management System",
+          "description": "Comprehensive healthcare management with patient records, appointments, billing, and staff management.",
+          "tags": ["healthcare", "management", "patients", "appointments", "billing"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "online-compiler",
+          "title": "Online Code Compiler",
+          "description": "Web-based IDE with code compilation, execution, syntax highlighting, and support for multiple programming languages.",
+          "tags": ["compiler", "ide", "code-execution", "multi-language", "web"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "file-manager",
+          "title": "File Management System",
+          "description": "Desktop application for advanced file operations with search, organization, compression, and network file access.",
+          "tags": ["file-system", "desktop", "organization", "search", "utilities"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "game-engine",
+          "title": "2D Game Engine",
+          "description": "Basic game engine with sprite management, collision detection, sound system, and scene management for 2D games.",
+          "tags": ["game-engine", "2d", "sprites", "collision", "audio"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "messaging-app",
+          "title": "Enterprise Messaging App",
+          "description": "Secure messaging application for businesses with encryption, file sharing, group chats, and admin controls.",
+          "tags": ["messaging", "enterprise", "encryption", "file-sharing", "security"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c-language",
+      "title": "C Language Projects",
+      "description": "Low-level programming projects that demonstrate C language fundamentals and system programming concepts.",
+      "icon": "⚙️",
+      "projects": [
+        {
+          "id": "memory-allocator",
+          "title": "Custom Memory Allocator",
+          "description": "Implementation of a custom memory management system with allocation, deallocation, and garbage collection.",
+          "tags": ["memory", "allocation", "pointers", "system", "low-level"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "file-system",
+          "title": "Simple File System",
+          "description": "Basic file system implementation with file creation, deletion, directory management, and disk space allocation.",
+          "tags": ["file-system", "disk", "directories", "storage", "operating-system"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "text-editor",
+          "title": "Command Line Text Editor",
+          "description": "Terminal-based text editor with basic editing operations, file I/O, search functionality, and keyboard shortcuts.",
+          "tags": ["editor", "terminal", "file-io", "text-processing", "cli"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "compiler",
+          "title": "Simple Language Compiler",
+          "description": "Compiler for a basic programming language with lexical analysis, parsing, and code generation.",
+          "tags": ["compiler", "parsing", "lexer", "code-generation", "language"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "database-engine",
+          "title": "Mini Database Engine",
+          "description": "Simple relational database with SQL parsing, query execution, indexing, and transaction support.",
+          "tags": ["database", "sql", "indexing", "transactions", "query"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "network-scanner",
+          "title": "Network Port Scanner",
+          "description": "Security tool for scanning network ports, detecting services, and analyzing network connectivity and vulnerabilities.",
+          "tags": ["networking", "security", "ports", "scanning", "sockets"],
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend Development Projects",
+      "description": "Client-side projects focusing on user interface design, user experience, and modern frontend frameworks.",
+      "icon": "🎨",
+      "projects": [
+        {
+          "id": "dashboard",
+          "title": "Analytics Dashboard",
+          "description": "Interactive dashboard with data visualization, charts, filters, and real-time updates for business analytics.",
+          "tags": ["dashboard", "charts", "analytics", "visualization", "business"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "landing-page",
+          "title": "Product Landing Page",
+          "description": "High-converting landing page with animations, call-to-actions, testimonials, and responsive design.",
+          "tags": ["landing-page", "marketing", "animations", "responsive", "conversion"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "image-gallery",
+          "title": "Interactive Image Gallery",
+          "description": "Photo gallery with lightbox, filtering, sorting, lazy loading, and social sharing capabilities.",
+          "tags": ["gallery", "images", "lightbox", "filtering", "lazy-loading"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "kanban-board",
+          "title": "Kanban Board Interface",
+          "description": "Drag-and-drop task management interface with columns, cards, progress tracking, and team collaboration features.",
+          "tags": ["kanban", "drag-drop", "task-management", "ui", "collaboration"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "music-player",
+          "title": "Web Music Player",
+          "description": "Audio player with playlist management, equalizer, shuffle/repeat modes, and modern media controls.",
+          "tags": ["audio", "music", "player", "playlist", "media"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "form-builder",
+          "title": "Dynamic Form Builder",
+          "description": "Tool for creating custom forms with drag-and-drop field placement, validation rules, and response collection.",
+          "tags": ["forms", "form-builder", "validation", "dynamic", "drag-drop"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "title": "Fullstack Development Projects",
+      "description": "End-to-end applications combining frontend interfaces with backend APIs, databases, and cloud services.",
+      "icon": "🔄",
+      "projects": [
+        {
+          "id": "task-management",
+          "title": "Team Task Management Platform",
+          "description": "Collaborative platform with project boards, team chat, file sharing, time tracking, and progress reporting.",
+          "tags": ["collaboration", "teams", "projects", "chat", "time-tracking"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "booking-platform",
+          "title": "Multi-Service Booking Platform",
+          "description": "Platform for booking various services with provider profiles, scheduling, payments, and review system.",
+          "tags": ["booking", "services", "scheduling", "payments", "reviews"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "content-creator",
+          "title": "Content Creator Platform",
+          "description": "Platform for creators to publish content, manage subscribers, handle monetization, and analyze engagement.",
+          "tags": ["content", "creators", "monetization", "subscribers", "analytics"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "inventory-ecommerce",
+          "title": "Inventory + E-commerce System",
+          "description": "Integrated system combining inventory management with online sales, order fulfillment, and supplier management.",
+          "tags": ["inventory", "ecommerce", "orders", "suppliers", "integration"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "event-management",
+          "title": "Event Management Platform",
+          "description": "Complete event platform with ticketing, attendee management, check-in systems, and event analytics.",
+          "tags": ["events", "ticketing", "attendees", "check-in", "management"],
+          "difficulty": "hard"
+        },
+        {
+          "id": "marketplace",
+          "title": "Multi-Vendor Marketplace",
+          "description": "Marketplace platform with vendor onboarding, product listings, order management, and commission tracking.",
+          "tags": ["marketplace", "vendors", "products", "orders", "commissions"],
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice Projects",
+      "description": "Skill-building projects designed to practice specific programming concepts and improve coding proficiency.",
+      "icon": "💪",
+      "projects": [
+        {
+          "id": "sorting-visualizer",
+          "title": "Algorithm Sorting Visualizer",
+          "description": "Interactive tool to visualize different sorting algorithms with step-by-step animation and performance comparison.",
+          "tags": ["algorithms", "sorting", "visualization", "education", "animation"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "data-structures",
+          "title": "Data Structures Implementation",
+          "description": "Implementation of common data structures like linked lists, trees, graphs, and hash tables with visual representation.",
+          "tags": ["data-structures", "algorithms", "implementation", "education", "computer-science"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "regex-tester",
+          "title": "Regular Expression Tester",
+          "description": "Tool for testing and learning regular expressions with real-time matching, explanation, and pattern library.",
+          "tags": ["regex", "patterns", "testing", "education", "validation"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "code-formatter",
+          "title": "Code Formatter",
+          "description": "Tool to format and beautify code in multiple programming languages with customizable style rules.",
+          "tags": ["code", "formatting", "beautifier", "multiple-languages", "development"],
+          "difficulty": "medium"
+        },
+        {
+          "id": "json-validator",
+          "title": "JSON Validator & Formatter",
+          "description": "Tool to validate, format, and analyze JSON data with error highlighting and schema validation support.",
+          "tags": ["json", "validation", "formatting", "schema", "data"],
+          "difficulty": "easy"
+        },
+        {
+          "id": "api-testing",
+          "title": "API Testing Tool",
+          "description": "Tool for testing REST APIs with request building, response analysis, authentication, and automated testing.",
+          "tags": ["api", "testing", "rest", "automation", "development"],
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
