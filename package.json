@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/RupankarGarai2003/projectideas.git"
+
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
