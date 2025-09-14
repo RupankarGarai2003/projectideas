@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Clock, Users, Star, Code, ExternalLink, Download, Play } from 'lucide-react';
+import { ArrowLeft, Clock, Users, Star, Code,  } from 'lucide-react';
 
 interface Project {
   id: string;
@@ -33,18 +33,18 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, category, onBack
 
   const getEstimatedTime = (difficulty: string) => {
     switch (difficulty) {
-      case 'easy': return '1-3 days';
+      case 'easy': return '1-2 days';
       case 'medium': return '1-2 weeks';
-      case 'hard': return '2-4 weeks';
+      case 'hard': return '1-3 weeks';
       default: return 'Variable';
     }
   };
 
   const getTeamSize = (difficulty: string) => {
     switch (difficulty) {
-      case 'easy': return '1 person';
-      case 'medium': return '1-2 people';
-      case 'hard': return '2-4 people';
+      case 'easy': return '2 person';
+      case 'medium': return '2-4 people';
+      case 'hard': return '3-7 people';
       default: return 'Variable';
     }
   };
@@ -278,7 +278,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, category, onBack
             </div>
 
             {/* Action Buttons */}
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200">
+            {/* <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-4">Get Started</h3>
               <div className="space-y-3">
                 <button className="w-full flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-3 rounded-xl hover:bg-blue-700 transition-colors font-medium">
@@ -294,7 +294,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, category, onBack
                   View Examples
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>

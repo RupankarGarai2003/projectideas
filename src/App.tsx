@@ -16,34 +16,25 @@ function App() {
   const [selectedProjectCategory, setSelectedProjectCategory] = useState<any>(null);
 
   const handleResultClick = (projectId: string, categoryId: string) => {
-    // Find the project and category
     const category = projectsData.categories.find(cat => cat.id === categoryId);
     const project = category?.projects.find(proj => proj.id === projectId);
-    
+
     if (project && category) {
       setSelectedProject(project);
       setSelectedProjectCategory(category);
       return;
     }
-    
-    // Fallback to highlighting if project not found
+
     setHighlightedProject(projectId);
-    
-    // Scroll to the project with smooth animation
+
     setTimeout(() => {
       const element = document.getElementById(`project-${projectId}`);
       if (element) {
-        element.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'center' 
-        });
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }, 100);
 
-    // Clear highlight after 3 seconds
-    setTimeout(() => {
-      setHighlightedProject('');
-    }, 3000);
+    setTimeout(() => setHighlightedProject(''), 3000);
   };
 
   const handleProjectClick = (project: any, category: any) => {
@@ -59,29 +50,38 @@ function App() {
   useEffect(() => {
     let filtered = projectsData.categories;
 
-    // Filter by category
     if (selectedCategory !== 'all') {
       filtered = filtered.filter(category => category.id === selectedCategory);
     }
 
-    // Filter by difficulty within categories
     if (selectedDifficulty !== 'all') {
-      filtered = filtered.map(category => ({
-        ...category,
-        projects: category.projects.filter(project => project.difficulty === selectedDifficulty)
-      })).filter(category => category.projects.length > 0);
+      filtered = filtered
+        .map(category => ({
+          ...category,
+          projects: category.projects.filter(project => project.difficulty === selectedDifficulty),
+        }))
+        .filter(category => category.projects.length > 0);
     }
 
     setFilteredCategories(filtered);
   }, [selectedDifficulty, selectedCategory]);
 
+  // Calculate stats
   const totalProjects = projectsData.categories.reduce((sum, category) => sum + category.projects.length, 0);
-  const easyProjects = projectsData.categories.reduce((sum, category) => 
-    sum + category.projects.filter(p => p.difficulty === 'easy').length, 0);
-  const hardProjects = projectsData.categories.reduce((sum, category) => 
-    sum + category.projects.filter(p => p.difficulty === 'hard').length, 0);
+  const totalCategories = projectsData.categories.length;
+  const easyProjects = projectsData.categories.reduce(
+    (sum, category) => sum + category.projects.filter(p => p.difficulty === 'easy').length,
+    0
+  );
+  const mediumProjects = projectsData.categories.reduce(
+    (sum, category) => sum + category.projects.filter(p => p.difficulty === 'medium').length,
+    0
+  );
+  const hardProjects = projectsData.categories.reduce(
+    (sum, category) => sum + category.projects.filter(p => p.difficulty === 'hard').length,
+    0
+  );
 
-  // Show project detail if a project is selected
   if (selectedProject && selectedProjectCategory) {
     return (
       <ProjectDetail
@@ -110,19 +110,17 @@ function App() {
             </p>
           </div>
 
-          <SearchBar 
-            projects={projectsData} 
-            onResultClick={handleResultClick}
-          />
+          <SearchBar projects={projectsData} onResultClick={handleResultClick} />
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-12">
-        <StatsPanel 
+        <StatsPanel
           totalProjects={totalProjects}
-          totalCategories={projectsData.categories.length}
+          totalCategories={totalCategories}
           easyProjects={easyProjects}
+          mediumProjects={mediumProjects}
           hardProjects={hardProjects}
         />
 
@@ -135,9 +133,9 @@ function App() {
         />
 
         <div className="space-y-16">
-          {filteredCategories.map((category) => (
-            <CategorySection 
-              key={category.id} 
+          {filteredCategories.map(category => (
+            <CategorySection
+              key={category.id}
               category={category}
               highlightedProject={highlightedProject}
               onProjectClick={handleProjectClick}
@@ -192,9 +190,7 @@ function App() {
           </div>
           
           <div className="border-t border-gray-800 pt-8 mt-8 text-center">
-            <p className="text-gray-400">
-              © 2025 Project Ideas Hub. Inspiring developers worldwide.
-            </p>
+            <p className="text-gray-400">© 2025 Project Ideas Hub. Inspiring developers worldwide.</p>
           </div>
         </div>
       </footer>

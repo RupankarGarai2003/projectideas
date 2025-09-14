@@ -47,13 +47,355 @@
           "description": "Classic two-player game with win detection, score tracking, and options for player vs computer modes.",
           "tags": ["game", "logic", "2d-array", "ai", "strategy"],
           "difficulty": "medium"
-        }
+        },{
+    "id": "student-grade-calculator",
+    "title": "Student Grade Calculator",
+    "description": "A program that calculates a student's grade based on marks entered for different subjects.",
+    "tags": ["education", "grades", "math"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "banking-system",
+    "title": "Simple Banking System",
+    "description": "A console-based system where users can deposit, withdraw, and check balance.",
+    "tags": ["finance", "transactions", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "library-management",
+    "title": "Library Management System",
+    "description": "A program to manage books, issue/return, and track availability.",
+    "tags": ["education", "file-handling", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "todo-list",
+    "title": "To-Do List App",
+    "description": "An app that lets users create, update, and delete tasks with completion status.",
+    "tags": ["productivity", "tasks", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "number-guessing-game",
+    "title": "Number Guessing Game",
+    "description": "A fun game where the computer generates a random number and the user guesses it.",
+    "tags": ["game", "random", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "tic-tac-toe",
+    "title": "Tic-Tac-Toe Game",
+    "description": "A two-player game with X and O played on a 3x3 board.",
+    "tags": ["game", "logic", "multiplayer"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "hangman",
+    "title": "Hangman Game",
+    "description": "A word guessing game where the player guesses letters to complete a hidden word.",
+    "tags": ["game", "words", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock-paper-scissors",
+    "title": "Rock Paper Scissors Game",
+    "description": "A simple game between the user and computer following rock-paper-scissors rules.",
+    "tags": ["game", "random", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "quiz-app",
+    "title": "Quiz Application",
+    "description": "An app that allows users to answer multiple-choice questions and get scored.",
+    "tags": ["education", "quiz", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "contact-book",
+    "title": "Contact Book",
+    "description": "A program to save and manage contacts with names, phone numbers, and emails.",
+    "tags": ["file-handling", "utility", "contacts"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "diary-management",
+    "title": "Diary Management System",
+    "description": "A program to write, read, and search daily diary entries.",
+    "tags": ["file-handling", "personal", "notes"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "report-card",
+    "title": "Student Report Card Generator",
+    "description": "Generates student report cards from input marks with average and grade calculation.",
+    "tags": ["education", "grades", "reports"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "railway-reservation",
+    "title": "Railway Reservation System",
+    "description": "A basic reservation system to book and cancel tickets with seat tracking.",
+    "tags": ["transport", "reservation", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hospital-management",
+    "title": "Hospital Management System",
+    "description": "Keeps records of patients, doctors, and appointments.",
+    "tags": ["healthcare", "management", "records"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-encryption",
+    "title": "File Encryption/Decryption Tool",
+    "description": "Encrypts and decrypts files using a simple algorithm for data protection.",
+    "tags": ["security", "encryption", "files"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A system to log and analyze daily expenses.",
+    "tags": ["finance", "tracking", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "result-management",
+    "title": "Result Management System",
+    "description": "Manages students’ exam results with data storage and retrieval.",
+    "tags": ["education", "results", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "phone-directory",
+    "title": "Phone Directory",
+    "description": "A program to save, search, and update phone numbers.",
+    "tags": ["contacts", "utility", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "inventory-management",
+    "title": "Inventory Management System",
+    "description": "Tracks stock, purchases, and sales of items.",
+    "tags": ["business", "inventory", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stack-simulator",
+    "title": "Stack Operations Simulator",
+    "description": "Implements stack operations like push, pop, and peek with visualization.",
+    "tags": ["data-structures", "stack", "simulation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "queue-simulator",
+    "title": "Queue Operations Simulator",
+    "description": "Implements queue operations like enqueue and dequeue with visualization.",
+    "tags": ["data-structures", "queue", "simulation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "linked-list-visualizer",
+    "title": "Linked List Visualizer",
+    "description": "A visual tool to perform linked list operations (insert, delete, traverse).",
+    "tags": ["data-structures", "linked-list", "visualization"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bst-operations",
+    "title": "Binary Search Tree Operations",
+    "description": "Performs BST operations like insert, delete, and search with visualization.",
+    "tags": ["data-structures", "trees", "visualization"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "sorting-visualizer",
+    "title": "Sorting Visualizer",
+    "description": "Visualizes different sorting algorithms like Bubble, Merge, and Quick sort.",
+    "tags": ["algorithms", "sorting", "visualization"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "path-finder",
+    "title": "Path Finder",
+    "description": "Finds shortest path in a grid using BFS or DFS algorithms.",
+    "tags": ["algorithms", "graphs", "pathfinding"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "maze-solver",
+    "title": "Maze Solver",
+    "description": "Solves a maze using recursion or graph traversal algorithms.",
+    "tags": ["algorithms", "maze", "graphs"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "priority-queue-simulator",
+    "title": "Priority Queue Simulator",
+    "description": "Implements priority queue using heap or arrays.",
+    "tags": ["data-structures", "queue", "simulation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hash-table",
+    "title": "Hash Table Implementation",
+    "description": "Implements a hash table with collision handling.",
+    "tags": ["data-structures", "hashing", "algorithms"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "graph-traversal",
+    "title": "Graph Traversal Visualizer",
+    "description": "Visualizes BFS and DFS traversal on graphs.",
+    "tags": ["algorithms", "graphs", "visualization"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Personal Portfolio Website",
+    "description": "A website to showcase personal details, projects, and skills.",
+    "tags": ["web", "portfolio", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "school-website",
+    "title": "School Website Template",
+    "description": "A static website template for a school with sections like About, Courses, and Contact.",
+    "tags": ["web", "education", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "online-quiz",
+    "title": "Online Quiz Website",
+    "description": "A web app that allows users to take quizzes and shows results.",
+    "tags": ["web", "quiz", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "digital-clock",
+    "title": "Digital Clock & Stopwatch",
+    "description": "Displays real-time clock and includes stopwatch functionality.",
+    "tags": ["time", "clock", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather App",
+    "description": "Fetches and displays live weather data using an API.",
+    "tags": ["web", "api", "weather"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "notes-app",
+    "title": "Notes App",
+    "description": "A simple app to create, update, and delete notes with local storage support.",
+    "tags": ["productivity", "notes", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "blog-page",
+    "title": "Simple Blog Page",
+    "description": "A static blog template with posts, categories, and author info.",
+    "tags": ["web", "blog", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "Converts one currency to another using exchange rate APIs.",
+    "tags": ["finance", "web", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calculator-web",
+    "title": "Calculator Web App",
+    "description": "A calculator built with HTML, CSS, and JavaScript.",
+    "tags": ["math", "web", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chat-ui",
+    "title": "Chat UI Design",
+    "description": "Frontend-only chat interface with message bubbles and user list.",
+    "tags": ["web", "frontend", "design"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chatbot",
+    "title": "Basic Chatbot",
+    "description": "A simple chatbot with rule-based responses.",
+    "tags": ["ai", "chatbot", "logic"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "alarm-clock",
+    "title": "Alarm Clock",
+    "description": "A program that lets users set alarms and notifies them when time is up.",
+    "tags": ["time", "clock", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "text-to-speech",
+    "title": "Text to Speech Converter",
+    "description": "Converts input text to spoken audio using libraries.",
+    "tags": ["ai", "speech", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "description": "A tool that generates secure passwords with customizable length, character sets, and complexity requirements.",
+    "tags": ["security", "random", "strings", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "description": "Converts between different units like length, weight, and temperature.",
+    "tags": ["math", "conversion", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "description": "A classic snake game where the snake grows as it eats food.",
+    "tags": ["game", "python", "logic"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flappy-bird-clone",
+    "title": "Flappy Bird Clone",
+    "description": "A clone of the popular Flappy Bird game with simple graphics.",
+    "tags": ["game", "clone", "python"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "description": "A program that solves Sudoku puzzles using backtracking.",
+    "tags": ["game", "puzzle", "algorithms"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "image-grayscale",
+    "title": "Image to Grayscale Converter",
+    "description": "Converts a colored image into grayscale using image processing libraries.",
+    "tags": ["image-processing", "python", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "plagiarism-checker",
+    "title": "Plagiarism Checker",
+    "description": "Compares text documents to detect similarities and possible plagiarism.",
+    "tags": ["education", "text", "comparison"],
+    "difficulty": "medium"
+  }
       ]
     },
     {
       "id": "college",
       "title": "College Projects",
-      "description": "Intermediate to advanced projects suitable for college-level computer science and engineering curricula.",
+      "description": "medium to hard projects suitable for college-level computer science and engineering curricula.",
       "icon": "🎓",
       "projects": [
         {
@@ -97,7 +439,349 @@
           "description": "A platform for creating, taking, and grading quizzes with timer functionality and result analytics.",
           "tags": ["education", "testing", "timer", "analytics", "assessment"],
           "difficulty": "medium"
-        }
+        },{
+    "id": "online-exam-system",
+    "title": "Online Examination System",
+    "description": "A web-based platform where students can take exams, and teachers can create and evaluate tests with automatic grading.",
+    "tags": ["web", "education", "database", "authentication"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ecommerce-platform",
+    "title": "E-commerce Platform",
+    "description": "A complete shopping website with product listing, cart, payment gateway, and user authentication.",
+    "tags": ["web", "ecommerce", "database", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chat-application",
+    "title": "Real-Time Chat Application",
+    "description": "A messaging app with WebSocket support for real-time conversations, group chat, and file sharing.",
+    "tags": ["web", "realtime", "chat", "socket"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "learning-management-system",
+    "title": "Learning Management System",
+    "description": "A platform for hosting courses, uploading study material, and conducting online quizzes.",
+    "tags": ["web", "education", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-banking-system",
+    "title": "Online Banking System",
+    "description": "A secure system for managing accounts, transactions, fund transfers, and statements.",
+    "tags": ["finance", "security", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-delivery-system",
+    "title": "Food Delivery System",
+    "description": "A web or mobile app for ordering food, tracking delivery, and processing payments.",
+    "tags": ["food", "mobile", "database", "delivery"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "attendance-system",
+    "title": "Attendance Management System",
+    "description": "An automated attendance tracker using QR code or biometrics with database storage.",
+    "tags": ["attendance", "biometrics", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hospital-management-system",
+    "title": "Hospital Management System",
+    "description": "A system to manage patients, doctors, appointments, and billing.",
+    "tags": ["healthcare", "management", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "college-social-network",
+    "title": "College Social Network",
+    "description": "A social platform for students to share posts, create groups, and chat.",
+    "tags": ["social", "database", "web", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "event-management",
+    "title": "Event Management System",
+    "description": "A system for registering, scheduling, and managing college events and participants.",
+    "tags": ["event", "database", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hostel-management",
+    "title": "Hostel Management System",
+    "description": "A platform to allocate rooms, track hostel fees, and manage student records.",
+    "tags": ["management", "database", "hostel"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "job-portal",
+    "title": "Job Portal",
+    "description": "A system where companies can post jobs, and students can apply and track their applications.",
+    "tags": ["jobs", "web", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crime-reporting-system",
+    "title": "Crime Reporting System",
+    "description": "A web app to report and track crimes with police dashboards for case updates.",
+    "tags": ["security", "crime", "web", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "smart-parking",
+    "title": "Smart Parking System",
+    "description": "IoT-based system to detect available parking slots and book in advance.",
+    "tags": ["iot", "parking", "sensors"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "airline-reservation",
+    "title": "Airline Reservation System",
+    "description": "A booking system for flights with payment gateway integration.",
+    "tags": ["airline", "database", "reservation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "movie-recommendation",
+    "title": "Movie Recommendation System",
+    "description": "A recommendation system that suggests movies based on user preferences and ratings.",
+    "tags": ["ml", "recommendation", "movies"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "traffic-management",
+    "title": "Traffic Management System",
+    "description": "A system to monitor and optimize traffic flow using sensors and cameras.",
+    "tags": ["iot", "traffic", "ai"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-voting-system",
+    "title": "E-Voting System",
+    "description": "A secure voting system using blockchain or encrypted databases.",
+    "tags": ["security", "voting", "blockchain"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "health-tracker",
+    "title": "Health Tracker App",
+    "description": "A mobile app to track fitness activities, steps, calories, and sleep patterns.",
+    "tags": ["health", "mobile", "tracking"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "tourism-guide",
+    "title": "Tourism Guide System",
+    "description": "A travel planner app that suggests places to visit and hotels to stay.",
+    "tags": ["tourism", "mobile", "recommendation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "resume-builder",
+    "title": "Online Resume Builder",
+    "description": "A tool to create and download resumes in different templates.",
+    "tags": ["resume", "utility", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "warehouse-management",
+    "title": "Warehouse Management System",
+    "description": "A system to track stock levels, orders, sales, and deliveries.",
+    "tags": ["inventory", "warehouse", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chatgpt-clone",
+    "title": "Chatbot with NLP",
+    "description": "An AI chatbot using NLP libraries to answer student queries automatically.",
+    "tags": ["nlp", "ai", "chatbot"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "book-recommendation",
+    "title": "Book Recommendation System",
+    "description": "Recommends books based on reading history and ratings using ML.",
+    "tags": ["ml", "recommendation", "books"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-streaming",
+    "title": "Music Streaming App",
+    "description": "A music app with playlists, search, and streaming features.",
+    "tags": ["music", "streaming", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "college-erp",
+    "title": "College ERP System",
+    "description": "An integrated system for managing academics, staff, finance, and student records.",
+    "tags": ["erp", "management", "education"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "face-recognition",
+    "title": "Face Recognition Attendance System",
+    "description": "An AI-based system to mark attendance using face recognition.",
+    "tags": ["ai", "vision", "attendance"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "car-rental-system",
+    "title": "Car Rental System",
+    "description": "A platform for renting cars, managing bookings, and tracking availability.",
+    "tags": ["transport", "rental", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "quiz-competition",
+    "title": "Quiz Competition System",
+    "description": "An online quiz platform for multiple players with a leaderboard.",
+    "tags": ["quiz", "education", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "crypto-trading-simulator",
+    "title": "Crypto Trading Simulator",
+    "description": "A simulation platform where students can practice cryptocurrency trading.",
+    "tags": ["finance", "crypto", "simulation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "vehicle-tracking",
+    "title": "GPS Vehicle Tracking System",
+    "description": "Tracks vehicles in real-time using GPS and maps.",
+    "tags": ["gps", "tracking", "iot"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crowdfunding-platform",
+    "title": "Crowdfunding Platform",
+    "description": "A web app where users can raise and contribute funds for causes.",
+    "tags": ["finance", "funding", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "bug-tracking",
+    "title": "Bug Tracking System",
+    "description": "A platform for reporting, tracking, and resolving software bugs.",
+    "tags": ["bugs", "software", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "document-verification",
+    "title": "Document Verification System",
+    "description": "An AI/Blockchain-based system to verify the authenticity of documents.",
+    "tags": ["security", "blockchain", "verification"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "news-aggregator",
+    "title": "News Aggregator",
+    "description": "Fetches and categorizes news from multiple APIs and displays in a dashboard.",
+    "tags": ["news", "api", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe-app",
+    "title": "Recipe Recommendation App",
+    "description": "Suggests recipes based on available ingredients entered by the user.",
+    "tags": ["food", "recommendation", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stock-price-predictor",
+    "title": "Stock Price Predictor",
+    "description": "Predicts stock market trends using machine learning models.",
+    "tags": ["ml", "finance", "prediction"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "language-translator",
+    "title": "Language Translator",
+    "description": "A system that translates text between multiple languages using APIs or ML models.",
+    "tags": ["nlp", "translation", "ai"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "plagiarism-detector",
+    "title": "Plagiarism Detection System",
+    "description": "An hard system that detects plagiarism using string matching and ML.",
+    "tags": ["education", "plagiarism", "ml"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "iot-smart-home",
+    "title": "IoT Smart Home",
+    "description": "A home automation system to control lights, fans, and appliances using IoT.",
+    "tags": ["iot", "automation", "home"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "sports-analytics",
+    "title": "Sports Analytics Dashboard",
+    "description": "Analyzes sports data and visualizes team and player performance.",
+    "tags": ["sports", "analytics", "visualization"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fraud-detection",
+    "title": "Fraud Detection System",
+    "description": "Detects fraudulent transactions using machine learning techniques.",
+    "tags": ["finance", "ml", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-voting",
+    "title": "Blockchain Voting System",
+    "description": "A decentralized and tamper-proof online voting system using blockchain.",
+    "tags": ["blockchain", "voting", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-irrigation",
+    "title": "Smart Irrigation System",
+    "description": "An IoT system to automatically irrigate fields based on soil moisture sensors.",
+    "tags": ["iot", "agriculture", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cloud-file-storage",
+    "title": "Cloud File Storage System",
+    "description": "A cloud-based file storage and sharing system with user authentication.",
+    "tags": ["cloud", "storage", "files"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-voice-assistant",
+    "title": "AI Voice Assistant",
+    "description": "An AI-powered voice assistant that can perform tasks and answer questions.",
+    "tags": ["ai", "voice", "assistant"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "disease-prediction",
+    "title": "Disease Prediction System",
+    "description": "Predicts the likelihood of diseases based on symptoms using ML.",
+    "tags": ["healthcare", "ml", "prediction"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-voting",
+    "title": "Online Polling & Voting System",
+    "description": "A platform for creating polls and voting online with secure login.",
+    "tags": ["polling", "web", "security"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "smart-library",
+    "title": "Smart Library System",
+    "description": "A digital library with e-book management, search, and recommendation features.",
+    "tags": ["library", "ebooks", "database"],
+    "difficulty": "medium"
+  }
       ]
     },
     {
@@ -147,7 +831,329 @@
           "description": "Comprehensive home automation system with IoT device control, energy monitoring, security features, and voice commands.",
           "tags": ["iot", "automation", "voice-control", "sensors", "smart-home"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "ai-health-diagnosis",
+    "title": "AI Health Diagnosis System",
+    "description": "An AI-powered platform that analyzes symptoms and medical history to suggest possible diagnoses and treatments.",
+    "tags": ["ai", "ml", "healthcare", "prediction"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-land-registry",
+    "title": "Blockchain Land Registry",
+    "description": "A blockchain-based system to securely store and verify property ownership and land records.",
+    "tags": ["blockchain", "security", "real-estate"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-traffic-system",
+    "title": "Smart Traffic Management System",
+    "description": "An IoT and AI system to control traffic lights dynamically based on congestion and emergency vehicles.",
+    "tags": ["iot", "ai", "traffic", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-learning-platform",
+    "title": "E-Learning Platform with AI Tutors",
+    "description": "A full-fledged LMS with AI-based tutoring, adaptive tests, and student analytics.",
+    "tags": ["education", "ai", "web", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-farming",
+    "title": "IoT Smart Farming System",
+    "description": "An IoT-based farming system that monitors soil, weather, and automates irrigation.",
+    "tags": ["iot", "agriculture", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cybersecurity-threat-detection",
+    "title": "Cybersecurity Threat Detection System",
+    "description": "A system that detects network intrusions and anomalies using AI/ML models.",
+    "tags": ["security", "ai", "ml", "networking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "disaster-management",
+    "title": "Disaster Management & Alert System",
+    "description": "A real-time disaster prediction and alert platform integrating IoT sensors and cloud APIs.",
+    "tags": ["iot", "cloud", "disaster", "alert"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "remote-health-monitoring",
+    "title": "Remote Health Monitoring System",
+    "description": "A wearable IoT solution to track heart rate, oxygen levels, and send alerts to doctors.",
+    "tags": ["iot", "healthcare", "wearables"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-campus",
+    "title": "Smart Campus Management System",
+    "description": "An integrated ERP for colleges to manage academics, attendance, hostel, and finance digitally.",
+    "tags": ["education", "erp", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "autonomous-delivery-drone",
+    "title": "Autonomous Delivery Drone",
+    "description": "A drone delivery system with path optimization and obstacle detection using computer vision.",
+    "tags": ["iot", "drone", "vision", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-supply-chain",
+    "title": "Blockchain Supply Chain Tracking",
+    "description": "A blockchain-based solution for transparent tracking of goods in supply chains.",
+    "tags": ["blockchain", "supply-chain", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "energy-management",
+    "title": "Smart Energy Management System",
+    "description": "An IoT system for monitoring and optimizing energy usage in smart homes.",
+    "tags": ["iot", "energy", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-fraud-detection",
+    "title": "AI Fraud Detection in Banking",
+    "description": "An ML-powered fraud detection system for credit card and online banking transactions.",
+    "tags": ["ml", "finance", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-waste-management",
+    "title": "Smart Waste Management System",
+    "description": "IoT-enabled bins that monitor waste levels and optimize collection routes.",
+    "tags": ["iot", "environment", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "personalized-news",
+    "title": "Personalized News Recommendation System",
+    "description": "AI-based system that curates news feeds based on user interests and behavior.",
+    "tags": ["ai", "recommendation", "news"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cloud-based-pos",
+    "title": "Cloud-Based POS System",
+    "description": "A cloud-native Point of Sale system with billing, inventory, and analytics.",
+    "tags": ["cloud", "retail", "inventory"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-code-reviewer",
+    "title": "AI-Powered Code Reviewer",
+    "description": "A tool that reviews code for bugs, optimizations, and style using AI.",
+    "tags": ["ai", "ml", "developer-tools"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "autonomous-car-simulation",
+    "title": "Autonomous Car Simulation",
+    "description": "A simulation environment for testing self-driving algorithms and path planning.",
+    "tags": ["ai", "vision", "simulation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "healthcare-chatbot",
+    "title": "AI Healthcare Chatbot",
+    "description": "A chatbot that provides healthcare advice and connects users with doctors.",
+    "tags": ["ai", "nlp", "healthcare"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-city-dashboard",
+    "title": "Smart City Dashboard",
+    "description": "A dashboard that integrates IoT devices to monitor traffic, pollution, and energy usage in real time.",
+    "tags": ["iot", "city", "dashboard"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-voting",
+    "title": "Blockchain Voting System",
+    "description": "A tamper-proof voting system leveraging blockchain technology for elections.",
+    "tags": ["blockchain", "security", "voting"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "virtual-lab",
+    "title": "Virtual Laboratory Platform",
+    "description": "A cloud-based platform for conducting science experiments virtually with 3D simulations.",
+    "tags": ["cloud", "simulation", "education"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-resume-screener",
+    "title": "AI Resume Screener",
+    "description": "An AI system that screens resumes and matches candidates with job requirements.",
+    "tags": ["ai", "nlp", "jobs"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "intelligent-transport",
+    "title": "Intelligent Public Transport System",
+    "description": "A system for smart bus/train scheduling, ticketing, and passenger load prediction.",
+    "tags": ["transport", "iot", "ml"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "secure-cloud-storage",
+    "title": "Secure Cloud Storage with Encryption",
+    "description": "A cloud storage platform with end-to-end encryption and access control.",
+    "tags": ["cloud", "security", "files"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-mental-health",
+    "title": "AI Mental Health Companion",
+    "description": "A chatbot that provides mental health support and sentiment analysis.",
+    "tags": ["ai", "healthcare", "nlp"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "iot-water-quality",
+    "title": "IoT Water Quality Monitoring",
+    "description": "A sensor-based IoT solution to monitor and analyze water quality in real time.",
+    "tags": ["iot", "environment", "sensors"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-legal-assistant",
+    "title": "AI Legal Document Assistant",
+    "description": "A system that analyzes legal documents and provides summaries and compliance checks.",
+    "tags": ["ai", "nlp", "law"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "remote-lab-iot",
+    "title": "IoT Remote Lab System",
+    "description": "An IoT-enabled remote laboratory setup where students can run experiments online.",
+    "tags": ["iot", "education", "cloud"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-video-surveillance",
+    "title": "AI Video Surveillance System",
+    "description": "An AI-powered video analytics tool for detecting suspicious activities in CCTV footage.",
+    "tags": ["ai", "vision", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "digital-twin",
+    "title": "Digital Twin for Manufacturing",
+    "description": "A system that creates a digital replica of physical machines for predictive maintenance.",
+    "tags": ["iot", "cloud", "manufacturing"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-judge",
+    "title": "Online Coding Judge",
+    "description": "A platform for practicing coding with problem sets, submissions, and automatic grading.",
+    "tags": ["education", "coding", "platform"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-content-generator",
+    "title": "AI Content Generator",
+    "description": "A system that generates blogs, essays, or reports using AI language models.",
+    "tags": ["ai", "nlp", "content"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hospital-robot",
+    "title": "Hospital Assistant Robot",
+    "description": "An autonomous robot for medicine delivery and patient monitoring in hospitals.",
+    "tags": ["robotics", "iot", "healthcare"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-insurance",
+    "title": "Blockchain-Based Insurance System",
+    "description": "A transparent insurance claim and settlement platform using blockchain.",
+    "tags": ["blockchain", "insurance", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-language-tutor",
+    "title": "AI Language Learning Tutor",
+    "description": "An app that teaches languages using NLP and speech recognition.",
+    "tags": ["ai", "nlp", "education"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "autonomous-warehouse",
+    "title": "Autonomous Warehouse Robots",
+    "description": "Robots that move and manage inventory in warehouses using AI and IoT.",
+    "tags": ["robotics", "ai", "iot"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "secure-ecommerce",
+    "title": "Secure E-Commerce Platform",
+    "description": "A marketplace with secure payments, fraud detection, and recommendation engine.",
+    "tags": ["ecommerce", "security", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-drug-discovery",
+    "title": "AI Drug Discovery System",
+    "description": "A platform that predicts potential drug compounds using deep learning.",
+    "tags": ["ai", "ml", "healthcare"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "iot-smart-classroom",
+    "title": "IoT Smart Classroom",
+    "description": "A smart classroom with attendance, environmental control, and interactive learning tools.",
+    "tags": ["iot", "education", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blockchain-supply-chain-finance",
+    "title": "Blockchain Supply Chain Finance",
+    "description": "A system that integrates blockchain for transparent financial transactions in supply chains.",
+    "tags": ["blockchain", "finance", "supply-chain"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ar-vr-education",
+    "title": "AR/VR Education Platform",
+    "description": "An immersive AR/VR platform for interactive learning experiences.",
+    "tags": ["ar", "vr", "education"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-document-summarizer",
+    "title": "AI Document Summarizer",
+    "description": "An NLP-based tool that summarizes long documents and articles.",
+    "tags": ["ai", "nlp", "summarization"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "edge-computing-iot",
+    "title": "Edge Computing for IoT",
+    "description": "An IoT system that uses edge devices for faster data processing and reduced cloud dependency.",
+    "tags": ["iot", "edge", "cloud"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-stock-trading",
+    "title": "AI Stock Trading Bot",
+    "description": "An AI bot that predicts stock prices and executes trades automatically.",
+    "tags": ["ai", "finance", "trading"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-hospital",
+    "title": "Smart Hospital Management System",
+    "description": "A complete ERP for hospitals integrating patient care, billing, and IoT monitoring.",
+    "tags": ["healthcare", "iot", "erp"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -197,7 +1203,273 @@
           "description": "Automated backup solution for files and databases with encryption, versioning, and scheduled backups.",
           "tags": ["backup", "cloud", "encryption", "automation", "storage"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "online-food-ordering",
+    "title": "Online Food Ordering System",
+    "description": "A web and mobile platform for restaurants to accept and manage online food delivery orders.",
+    "tags": ["web", "mobile", "food", "ecommerce"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hotel-booking",
+    "title": "Hotel Booking Platform",
+    "description": "A service-based platform for users to search, compare, and book hotels online.",
+    "tags": ["travel", "booking", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ride-sharing",
+    "title": "Ride Sharing Service",
+    "description": "An Uber-like application for booking cabs with real-time GPS tracking and fare calculation.",
+    "tags": ["transport", "mobile", "gps"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-consultation",
+    "title": "Online Doctor Consultation",
+    "description": "A telemedicine platform for booking appointments and consulting doctors virtually.",
+    "tags": ["healthcare", "telemedicine", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "freelance-marketplace",
+    "title": "Freelance Services Marketplace",
+    "description": "A platform connecting freelancers with clients for project-based services.",
+    "tags": ["marketplace", "freelance", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "event-management",
+    "title": "Event Management System",
+    "description": "A digital platform for planning, scheduling, and booking events and venues.",
+    "tags": ["events", "booking", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "laundry-service",
+    "title": "Online Laundry Service",
+    "description": "A service platform for booking laundry pickup and delivery services.",
+    "tags": ["service", "logistics", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pet-care",
+    "title": "Pet Care Services",
+    "description": "A booking system for pet grooming, veterinary visits, and boarding services.",
+    "tags": ["pets", "booking", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "home-repair",
+    "title": "On-Demand Home Repair Services",
+    "description": "A mobile app for booking electricians, plumbers, and carpenters on demand.",
+    "tags": ["service", "mobile", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-trainer",
+    "title": "Online Fitness Trainer",
+    "description": "A platform for fitness trainers to provide live sessions, diet plans, and workout tracking.",
+    "tags": ["fitness", "health", "subscription"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "legal-consultation",
+    "title": "Online Legal Consultation",
+    "description": "A platform for clients to consult lawyers, book appointments, and manage legal documents.",
+    "tags": ["law", "consultation", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing Service Platform",
+    "description": "A service platform for SEO, social media management, and campaign analytics.",
+    "tags": ["marketing", "analytics", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "real-estate",
+    "title": "Real Estate Listing and Rental Platform",
+    "description": "A property marketplace for buying, selling, and renting properties with virtual tours.",
+    "tags": ["real-estate", "marketplace", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "tutoring-service",
+    "title": "Online Tutoring Service",
+    "description": "A platform where students can book tutors for live classes and study sessions.",
+    "tags": ["education", "tutoring", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "job-portal",
+    "title": "Job Portal with Resume Screening",
+    "description": "A job service platform for companies to post jobs and candidates to apply, with AI screening.",
+    "tags": ["jobs", "hr", "ai"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "travel-planner",
+    "title": "Travel Planning Service",
+    "description": "A travel assistant that suggests itineraries, books flights, and manages trips.",
+    "tags": ["travel", "planning", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "subscription-box",
+    "title": "Subscription Box Service",
+    "description": "An e-commerce platform for managing recurring product subscriptions like snacks or books.",
+    "tags": ["ecommerce", "subscription", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "car-rental",
+    "title": "Car Rental Service",
+    "description": "An online platform to rent cars with pricing, insurance, and GPS tracking.",
+    "tags": ["cars", "rental", "transport"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "grocery-delivery",
+    "title": "Online Grocery Delivery Service",
+    "description": "A delivery app for ordering groceries online with real-time tracking.",
+    "tags": ["delivery", "ecommerce", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "maid-service",
+    "title": "On-Demand Maid Service",
+    "description": "A platform to hire verified domestic workers for cleaning and household help.",
+    "tags": ["service", "home", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "language-learning",
+    "title": "Language Learning as a Service",
+    "description": "An AI-powered platform for personalized language learning with speech recognition.",
+    "tags": ["education", "ai", "language"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cloud-inventory",
+    "title": "Cloud-Based Inventory Management",
+    "description": "A SaaS tool for managing inventory, sales, and supplier relationships.",
+    "tags": ["cloud", "inventory", "saas"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "personal-finance",
+    "title": "Personal Finance Management Service",
+    "description": "An app to manage budgets, expenses, and savings goals with financial insights.",
+    "tags": ["finance", "web", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "subscription-music",
+    "title": "Music Streaming Service",
+    "description": "A subscription-based platform for streaming and recommending music.",
+    "tags": ["music", "subscription", "media"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "courier-service",
+    "title": "Courier & Logistics Service Platform",
+    "description": "A delivery tracking and logistics platform for courier companies.",
+    "tags": ["logistics", "delivery", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "elder-care",
+    "title": "Elder Care Services",
+    "description": "A service for booking caregivers, health monitoring, and emergency support.",
+    "tags": ["healthcare", "service", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "online-pharmacy",
+    "title": "Online Pharmacy Service",
+    "description": "A platform for ordering medicines with prescriptions and home delivery.",
+    "tags": ["pharmacy", "healthcare", "delivery"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "parking-system",
+    "title": "Smart Parking Service",
+    "description": "A mobile app to book and manage parking slots in real-time.",
+    "tags": ["transport", "parking", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "wedding-planner",
+    "title": "Wedding Planning Service",
+    "description": "An event management platform focused on wedding planning, vendor booking, and budgeting.",
+    "tags": ["wedding", "events", "service"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bike-sharing",
+    "title": "Bike Sharing Service",
+    "description": "A GPS-enabled bike rental and sharing platform for urban transport.",
+    "tags": ["transport", "gps", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-bookstore",
+    "title": "Online Bookstore",
+    "description": "An e-commerce bookstore with reviews, recommendations, and eBook options.",
+    "tags": ["books", "ecommerce", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-subscription",
+    "title": "Fitness Subscription Service",
+    "description": "A platform for gyms and fitness centers to offer online memberships and classes.",
+    "tags": ["fitness", "subscription", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cleaning-service",
+    "title": "Cleaning Services Platform",
+    "description": "A booking system for professional cleaning services with real-time availability.",
+    "tags": ["service", "home", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "education-subscription",
+    "title": "E-Learning Subscription Service",
+    "description": "A subscription-based education platform with video lectures and quizzes.",
+    "tags": ["education", "subscription", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "mental-health",
+    "title": "Mental Health Counseling Service",
+    "description": "A platform for booking therapy sessions and accessing mental health resources.",
+    "tags": ["healthcare", "mental-health", "consultation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "photography-service",
+    "title": "Photography Booking Service",
+    "description": "A marketplace for hiring photographers and booking shoots.",
+    "tags": ["photography", "events", "booking"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "online-gaming",
+    "title": "Online Gaming Service",
+    "description": "A subscription service for casual online games with leaderboards and tournaments.",
+    "tags": ["gaming", "subscription", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "recruitment-service",
+    "title": "Recruitment as a Service",
+    "description": "A service platform for talent acquisition, interview scheduling, and candidate management.",
+    "tags": ["hr", "jobs", "recruitment"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -247,7 +1519,343 @@
           "description": "Productivity timer following the Pomodoro Technique with customizable intervals and break reminders.",
           "tags": ["productivity", "timer", "focus", "breaks", "notifications"],
           "difficulty": "easy"
-        }
+        },
+        {
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "description": "A simple tool to convert between units like length, weight, and temperature.",
+    "tags": ["utility", "conversion", "math"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "digital-clock",
+    "title": "Digital Clock",
+    "description": "A real-time clock that displays the current time with hours, minutes, and seconds.",
+    "tags": ["time", "frontend", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "stopwatch",
+    "title": "Stopwatch App",
+    "description": "A stopwatch with start, pause, and reset functionalities.",
+    "tags": ["time", "frontend", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "tip-calculator",
+    "title": "Tip Calculator",
+    "description": "A calculator that helps split bills and calculate tips.",
+    "tags": ["math", "utility", "finance"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "markdown-editor",
+    "title": "Markdown Editor",
+    "description": "A mini editor that converts Markdown syntax into formatted HTML.",
+    "tags": ["editor", "frontend", "text"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "A tool to convert between currencies using exchange rate APIs.",
+    "tags": ["finance", "api", "conversion"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather App",
+    "description": "A simple weather application that fetches and displays real-time weather data.",
+    "tags": ["api", "weather", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "random-quote",
+    "title": "Random Quote Generator",
+    "description": "An app that displays random motivational quotes each time it is refreshed.",
+    "tags": ["random", "frontend", "text"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "countdown-timer",
+    "title": "Countdown Timer",
+    "description": "A timer app that counts down from a user-defined time.",
+    "tags": ["time", "frontend", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "simple-chat",
+    "title": "Simple Chat Application",
+    "description": "A basic chat app that allows two or more users to exchange text messages.",
+    "tags": ["chat", "realtime", "websocket"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "todo-list",
+    "title": "To-Do List",
+    "description": "A simple app to add, edit, and delete daily tasks.",
+    "tags": ["productivity", "frontend", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "quiz-app",
+    "title": "Quiz App",
+    "description": "A small quiz app that asks questions and tracks the score.",
+    "tags": ["quiz", "education", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "text-encryptor",
+    "title": "Text Encryptor/Decryptor",
+    "description": "A basic tool that encrypts and decrypts text using simple ciphers.",
+    "tags": ["security", "crypto", "text"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "portfolio-site",
+    "title": "Portfolio Website",
+    "description": "A simple personal portfolio site to showcase projects and skills.",
+    "tags": ["web", "frontend", "portfolio"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "number-guessing",
+    "title": "Number Guessing Game",
+    "description": "A console-based game where the player guesses a random number.",
+    "tags": ["game", "random", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "hangman",
+    "title": "Hangman Game",
+    "description": "A simple text-based Hangman game for learning loops and conditionals.",
+    "tags": ["game", "text", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "tic-tac-toe",
+    "title": "Tic Tac Toe Game",
+    "description": "A two-player tic-tac-toe game with win detection logic.",
+    "tags": ["game", "board", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "description": "A simple snake game with arrow key controls.",
+    "tags": ["game", "frontend", "canvas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird Clone",
+    "description": "A mini clone of Flappy Bird built with simple graphics and collision detection.",
+    "tags": ["game", "frontend", "canvas"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "simon-game",
+    "title": "Simon Memory Game",
+    "description": "A memory game that challenges players to repeat color/sound sequences.",
+    "tags": ["game", "memory", "logic"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "typing-speed",
+    "title": "Typing Speed Tester",
+    "description": "A tool to test typing speed and accuracy in words per minute.",
+    "tags": ["typing", "frontend", "text"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "note-taking",
+    "title": "Note Taking App",
+    "description": "A simple note app that lets users save, edit, and delete notes locally.",
+    "tags": ["notes", "frontend", "localstorage"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A mini app that helps users track expenses and categorize spending.",
+    "tags": ["finance", "tracking", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "password-strength",
+    "title": "Password Strength Checker",
+    "description": "A utility that checks password strength based on length and characters used.",
+    "tags": ["security", "password", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "image-gallery",
+    "title": "Image Gallery",
+    "description": "A responsive gallery for displaying and browsing images.",
+    "tags": ["gallery", "frontend", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "random-color",
+    "title": "Random Color Generator",
+    "description": "A tool that generates and displays random colors with their hex codes.",
+    "tags": ["color", "random", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "meme-generator",
+    "title": "Meme Generator",
+    "description": "A fun app that adds text captions to images to create memes.",
+    "tags": ["fun", "frontend", "image"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "url-shortener",
+    "title": "URL Shortener",
+    "description": "A mini service that shortens long URLs and redirects users.",
+    "tags": ["web", "utility", "links"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-organizer",
+    "title": "File Organizer Script",
+    "description": "A script that organizes files in folders based on type and extension.",
+    "tags": ["automation", "files", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "alarm-clock",
+    "title": "Alarm Clock",
+    "description": "A clock app that lets users set alarms with notifications.",
+    "tags": ["time", "alarm", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flashcards",
+    "title": "Flashcards App",
+    "description": "A small app for creating and studying flashcards for learning.",
+    "tags": ["education", "study", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calculator",
+    "title": "Calculator App",
+    "description": "A basic calculator for performing arithmetic operations.",
+    "tags": ["math", "utility", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prime-checker",
+    "title": "Prime Number Checker",
+    "description": "A tool that checks if a number is prime or not.",
+    "tags": ["math", "numbers", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "palindrome-checker",
+    "title": "Palindrome Checker",
+    "description": "A program to check whether a string or number is a palindrome.",
+    "tags": ["string", "logic", "text"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "temperature-logger",
+    "title": "Temperature Logger",
+    "description": "A mini project that logs temperature data from sensors or APIs.",
+    "tags": ["iot", "logging", "temperature"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "word-counter",
+    "title": "Word Counter",
+    "description": "A tool that counts the number of words and characters in text input.",
+    "tags": ["text", "utility", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "resume-builder",
+    "title": "Resume Builder",
+    "description": "A tool that generates a professional resume from user input.",
+    "tags": ["resume", "utility", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-player",
+    "title": "Music Player",
+    "description": "A basic music player that supports play, pause, and playlist management.",
+    "tags": ["music", "frontend", "media"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "drawing-app",
+    "title": "Drawing App",
+    "description": "A canvas-based drawing app with brushes, colors, and save option.",
+    "tags": ["drawing", "canvas", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "light-dark-mode",
+    "title": "Light/Dark Mode Toggle",
+    "description": "A toggle button to switch between light and dark UI themes.",
+    "tags": ["frontend", "ui", "theme"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "qr-generator",
+    "title": "QR Code Generator",
+    "description": "A mini tool to generate QR codes from text or URLs.",
+    "tags": ["qr", "utility", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bar-chart",
+    "title": "Bar Chart Visualizer",
+    "description": "A simple data visualization tool for displaying bar charts.",
+    "tags": ["chart", "data", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "markdown-blog",
+    "title": "Mini Markdown Blog",
+    "description": "A blog engine where posts are written in Markdown and rendered as HTML.",
+    "tags": ["blog", "markdown", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calendar",
+    "title": "Mini Calendar App",
+    "description": "A small calendar app with event adding and reminder features.",
+    "tags": ["calendar", "time", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "binary-converter",
+    "title": "Binary/Decimal Converter",
+    "description": "A mini tool for converting between binary and decimal numbers.",
+    "tags": ["math", "numbers", "conversion"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "random-password",
+    "title": "Random Password Generator",
+    "description": "A tool that generates strong random passwords based on user preferences.",
+    "tags": ["security", "random", "password"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "expense-splitter",
+    "title": "Bill Splitter",
+    "description": "A mini app that splits expenses among multiple people.",
+    "tags": ["finance", "math", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "emoji-finder",
+    "title": "Emoji Finder",
+    "description": "A small app to search and copy emojis based on keywords.",
+    "tags": ["emoji", "frontend", "fun"],
+    "difficulty": "easy"
+  }
       ]
     },
     {
@@ -297,7 +1905,336 @@
           "description": "Business CRM with lead tracking, customer data management, sales pipeline, and automated marketing workflows.",
           "tags": ["crm", "sales", "customers", "pipeline", "automation"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "A full-stack marketplace with product listings, shopping cart, payments, and order tracking.",
+    "tags": ["ecommerce", "web", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "social-media-app",
+    "title": "Social Media Application",
+    "description": "A social networking app with profiles, posts, comments, likes, and real-time chat.",
+    "tags": ["social", "web", "mobile", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hospital-management",
+    "title": "Hospital Management System",
+    "description": "A comprehensive ERP for managing patient records, billing, doctors, and staff.",
+    "tags": ["healthcare", "erp", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "learning-management",
+    "title": "Learning Management System (LMS)",
+    "description": "An online platform for hosting courses, quizzes, student progress tracking, and certifications.",
+    "tags": ["education", "fullstack", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "inventory-management",
+    "title": "Inventory Management System",
+    "description": "A cloud-based system for managing stock levels, suppliers, and automated restocking.",
+    "tags": ["inventory", "cloud", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-delivery",
+    "title": "Food Delivery Application",
+    "description": "A food ordering and delivery app with real-time order tracking and restaurant management.",
+    "tags": ["food", "delivery", "mobile", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-banking",
+    "title": "Online Banking System",
+    "description": "A secure online banking system for transactions, loan requests, and account management.",
+    "tags": ["finance", "banking", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "video-streaming",
+    "title": "Video Streaming Platform",
+    "description": "A YouTube/Netflix-like platform with video uploads, streaming, and subscription features.",
+    "tags": ["media", "video", "streaming"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "job-portal",
+    "title": "Job Portal",
+    "description": "A recruitment platform for posting jobs, applying, resume parsing, and interview scheduling.",
+    "tags": ["jobs", "recruitment", "hr"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "real-estate",
+    "title": "Real Estate Management System",
+    "description": "A property listing and rental platform with hard search, filters, and virtual tours.",
+    "tags": ["real-estate", "web", "fullstack"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-exam",
+    "title": "Online Examination System",
+    "description": "A secure online exam portal with question banks, proctoring, and instant results.",
+    "tags": ["education", "assessment", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crm-system",
+    "title": "Customer Relationship Management (CRM)",
+    "description": "A CRM solution for managing leads, customers, and analytics for sales teams.",
+    "tags": ["crm", "sales", "analytics"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chat-application",
+    "title": "Real-Time Chat Application",
+    "description": "A chat system with private messages, group chat, emojis, and file sharing.",
+    "tags": ["chat", "realtime", "websocket"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hotel-reservation",
+    "title": "Hotel Reservation System",
+    "description": "A booking platform for hotels with room management, reservations, and payments.",
+    "tags": ["travel", "booking", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-voting",
+    "title": "Online Voting System",
+    "description": "A secure voting platform for elections with authentication and vote counting.",
+    "tags": ["voting", "security", "blockchain"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "expense-manager",
+    "title": "Personal Expense Manager",
+    "description": "A financial tracking app with budgets, categories, reports, and charts.",
+    "tags": ["finance", "tracking", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ticket-booking",
+    "title": "Online Ticket Booking System",
+    "description": "A system for booking bus, train, or movie tickets with seat selection and payments.",
+    "tags": ["travel", "booking", "tickets"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-marketplace",
+    "title": "Online Marketplace",
+    "description": "A platform for buyers and sellers with auctions, ratings, and payment integration.",
+    "tags": ["ecommerce", "marketplace", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "document-management",
+    "title": "Document Management System",
+    "description": "A system for uploading, organizing, and securing digital documents.",
+    "tags": ["documents", "storage", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "school-management",
+    "title": "School Management System",
+    "description": "A platform for managing students, teachers, attendance, exams, and timetables.",
+    "tags": ["education", "erp", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "health-tracker",
+    "title": "Health & Fitness Tracker",
+    "description": "A mobile/web app to track workouts, diet, and health stats with analytics.",
+    "tags": ["fitness", "health", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "event-booking",
+    "title": "Event Booking Platform",
+    "description": "A ticketing system for concerts, conferences, and events with QR-code check-in.",
+    "tags": ["events", "booking", "tickets"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "warehouse-management",
+    "title": "Warehouse Management System",
+    "description": "An enterprise system for inventory tracking, supply chain, and logistics.",
+    "tags": ["warehouse", "inventory", "logistics"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "donation-platform",
+    "title": "Donation & Fundraising Platform",
+    "description": "A crowdfunding and donation platform for NGOs and social causes.",
+    "tags": ["donation", "fundraising", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "employee-management",
+    "title": "Employee Management System",
+    "description": "A system to manage employee records, payroll, attendance, and performance.",
+    "tags": ["hr", "management", "erp"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-library",
+    "title": "Smart Library Management System",
+    "description": "A system for managing book borrowing, RFID tracking, and digital archives.",
+    "tags": ["library", "education", "erp"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ride-sharing",
+    "title": "Ride Sharing Platform",
+    "description": "An Uber-like app for ride booking, tracking, and fare estimation.",
+    "tags": ["transport", "mobile", "gps"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "task-manager",
+    "title": "Team Task Management System",
+    "description": "A project management tool with tasks, deadlines, collaboration, and reports.",
+    "tags": ["project", "tasks", "collaboration"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-waste-reduction",
+    "title": "Food Waste Reduction Platform",
+    "description": "A system that connects restaurants with NGOs to donate leftover food.",
+    "tags": ["food", "donation", "sustainability"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fleet-management",
+    "title": "Fleet Management System",
+    "description": "A GPS-based system to track vehicles, maintenance, and driver performance.",
+    "tags": ["transport", "fleet", "gps"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chatbot-platform",
+    "title": "Chatbot Service Platform",
+    "description": "A platform to build, train, and deploy chatbots for businesses.",
+    "tags": ["ai", "chatbot", "nlp"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "clinic-appointment",
+    "title": "Clinic Appointment Booking System",
+    "description": "A healthcare platform for patients to book appointments and doctors to manage schedules.",
+    "tags": ["healthcare", "booking", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-streaming",
+    "title": "Music Streaming Platform",
+    "description": "A Spotify-like app for streaming, creating playlists, and recommendations.",
+    "tags": ["music", "streaming", "media"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "logistics-platform",
+    "title": "Logistics Management Platform",
+    "description": "A system for managing shipping, delivery tracking, and warehouse integration.",
+    "tags": ["logistics", "delivery", "supply-chain"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "airline-reservation",
+    "title": "Airline Reservation System",
+    "description": "An online flight booking system with seat selection and real-time availability.",
+    "tags": ["airline", "travel", "booking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "peer-to-peer-lending",
+    "title": "Peer-to-Peer Lending Platform",
+    "description": "A fintech system for lending and borrowing money securely between individuals.",
+    "tags": ["finance", "lending", "p2p"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "sports-management",
+    "title": "Sports Tournament Management System",
+    "description": "A platform to organize sports tournaments, fixtures, and score tracking.",
+    "tags": ["sports", "tournament", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-recipe-app",
+    "title": "Food Recipe App",
+    "description": "A mobile/web app for browsing, sharing, and saving cooking recipes.",
+    "tags": ["food", "recipe", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bug-tracking",
+    "title": "Bug Tracking System",
+    "description": "A system for software teams to log, track, and resolve bugs.",
+    "tags": ["bugs", "project", "collaboration"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "smart-parking",
+    "title": "Smart Parking System",
+    "description": "A real-time parking management system with sensors and booking features.",
+    "tags": ["parking", "iot", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "donor-management",
+    "title": "Blood Donor Management System",
+    "description": "A healthcare system to manage blood donors, requests, and emergency supply.",
+    "tags": ["healthcare", "donation", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "library-digital",
+    "title": "Digital Library System",
+    "description": "An online platform for accessing, borrowing, and reading eBooks.",
+    "tags": ["library", "ebooks", "education"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "restaurant-pos",
+    "title": "Restaurant POS System",
+    "description": "A Point-of-Sale system for restaurants to handle orders, billing, and inventory.",
+    "tags": ["restaurant", "pos", "inventory"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "emergency-services",
+    "title": "Emergency Services App",
+    "description": "An app for emergency SOS alerts, ambulance booking, and live tracking.",
+    "tags": ["emergency", "healthcare", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "knowledge-sharing",
+    "title": "Knowledge Sharing Platform",
+    "description": "A Q&A platform like Quora/Stack Overflow for community-based knowledge sharing.",
+    "tags": ["knowledge", "community", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cryptocurrency-exchange",
+    "title": "Cryptocurrency Exchange Platform",
+    "description": "A trading platform for buying, selling, and exchanging cryptocurrencies securely.",
+    "tags": ["crypto", "finance", "trading"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-nutrition",
+    "title": "Food Nutrition Analysis System",
+    "description": "An AI-powered app to analyze the nutritional value of meals using images.",
+    "tags": ["food", "ai", "health"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -347,7 +2284,350 @@
           "description": "Property listing platform with search filters, virtual tours, agent profiles, and inquiry management.",
           "tags": ["real-estate", "search", "listings", "agents", "properties"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "personal-portfolio",
+    "title": "Personal Portfolio Website",
+    "description": "A responsive portfolio site to showcase personal skills, resume, and projects.",
+    "tags": ["portfolio", "frontend", "responsive"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "blog-platform",
+    "title": "Blog Platform",
+    "description": "A full-stack blogging site with user authentication, post creation, and comments.",
+    "tags": ["blog", "web", "fullstack"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe-sharing",
+    "title": "Recipe Sharing Website",
+    "description": "A platform where users can upload, browse, and review cooking recipes.",
+    "tags": ["food", "community", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "portfolio-cms",
+    "title": "Portfolio CMS",
+    "description": "A CMS-based portfolio site where content can be managed dynamically.",
+    "tags": ["cms", "portfolio", "backend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "event-calendar",
+    "title": "Event Calendar App",
+    "description": "A responsive calendar with event scheduling, reminders, and sharing.",
+    "tags": ["calendar", "frontend", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ecommerce-store",
+    "title": "E-Commerce Store",
+    "description": "A shopping site with product listings, cart, checkout, and payment integration.",
+    "tags": ["ecommerce", "fullstack", "payments"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chat-web",
+    "title": "Web Chat Application",
+    "description": "A browser-based chat app with real-time messaging using WebSockets.",
+    "tags": ["chat", "realtime", "websocket"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "job-board",
+    "title": "Job Board Website",
+    "description": "A job listing site where employers post jobs and candidates apply online.",
+    "tags": ["jobs", "recruitment", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "news-aggregator",
+    "title": "News Aggregator",
+    "description": "A site that fetches and displays news articles from multiple APIs.",
+    "tags": ["news", "api", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "quiz-portal",
+    "title": "Online Quiz Portal",
+    "description": "A web-based quiz platform with multiple-choice questions, scoring, and leaderboards.",
+    "tags": ["quiz", "education", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "url-shortener-web",
+    "title": "URL Shortener",
+    "description": "A full-stack service that generates short links with analytics.",
+    "tags": ["links", "utility", "backend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "description": "A responsive weather app with real-time API integration and location tracking.",
+    "tags": ["weather", "api", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "forum-app",
+    "title": "Discussion Forum",
+    "description": "A web app for community discussions with topics, threads, and moderation.",
+    "tags": ["forum", "community", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "task-manager-web",
+    "title": "Task Manager",
+    "description": "A productivity app for task management, deadlines, and progress tracking.",
+    "tags": ["tasks", "productivity", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-sharing",
+    "title": "File Sharing Platform",
+    "description": "A web app for uploading, storing, and sharing files with links.",
+    "tags": ["files", "storage", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "resume-builder-web",
+    "title": "Resume Builder Website",
+    "description": "A site that generates professional resumes from user inputs.",
+    "tags": ["resume", "web", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "donation-site",
+    "title": "Donation Website",
+    "description": "A fundraising site where users can donate to causes and track progress.",
+    "tags": ["donation", "fundraising", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "travel-guide",
+    "title": "Travel Guide Website",
+    "description": "A site showcasing destinations, itineraries, and user reviews.",
+    "tags": ["travel", "frontend", "community"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-library",
+    "title": "Online Music Library",
+    "description": "A streaming site with playlists, music search, and audio player.",
+    "tags": ["music", "streaming", "media"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "photo-gallery",
+    "title": "Photo Gallery Website",
+    "description": "A responsive photo gallery with upload, filters, and lightbox preview.",
+    "tags": ["photos", "gallery", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "expense-tracker-web",
+    "title": "Expense Tracker",
+    "description": "A budgeting app that allows users to log expenses and generate reports.",
+    "tags": ["finance", "tracking", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "learning-platform",
+    "title": "Learning Platform",
+    "description": "A course platform with videos, quizzes, and certificate generation.",
+    "tags": ["education", "lms", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fitness-tracker-web",
+    "title": "Fitness Tracker",
+    "description": "A health tracking web app for logging workouts and monitoring progress.",
+    "tags": ["fitness", "health", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "sports-blog",
+    "title": "Sports Blog",
+    "description": "A blog site focused on sports news, scores, and fan discussions.",
+    "tags": ["sports", "blog", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "polling-app",
+    "title": "Online Polling App",
+    "description": "A site for creating and participating in live polls with results visualization.",
+    "tags": ["polls", "community", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "language-learning",
+    "title": "Language Learning Website",
+    "description": "An app for learning languages with lessons, flashcards, and progress tracking.",
+    "tags": ["language", "education", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "stock-tracker",
+    "title": "Stock Tracker Website",
+    "description": "A finance app for tracking stock prices, charts, and portfolio management.",
+    "tags": ["stocks", "finance", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "movie-database",
+    "title": "Movie Database Website",
+    "description": "A site for browsing movies, ratings, and reviews with API integration.",
+    "tags": ["movies", "media", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "qna-platform",
+    "title": "Q&A Platform",
+    "description": "A StackOverflow-like platform for asking and answering questions.",
+    "tags": ["qna", "community", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "restaurant-site",
+    "title": "Restaurant Website",
+    "description": "A responsive website with menu, online ordering, and table reservations.",
+    "tags": ["restaurant", "food", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "cryptocurrency-tracker",
+    "title": "Cryptocurrency Tracker",
+    "description": "A real-time crypto dashboard with charts and price alerts.",
+    "tags": ["crypto", "finance", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "online-store",
+    "title": "Mini Online Store",
+    "description": "A small e-commerce app with shopping cart and order history.",
+    "tags": ["ecommerce", "frontend", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "forum-lite",
+    "title": "Mini Forum",
+    "description": "A simple discussion board with topics and replies.",
+    "tags": ["forum", "community", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "library-catalog",
+    "title": "Library Catalog Website",
+    "description": "An online library catalog with book search, availability, and reservations.",
+    "tags": ["library", "books", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pet-adoption",
+    "title": "Pet Adoption Website",
+    "description": "A platform where users can browse and adopt pets from shelters.",
+    "tags": ["pets", "community", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "donor-portal",
+    "title": "Blood Donor Portal",
+    "description": "A platform to register donors, request blood, and manage donations.",
+    "tags": ["health", "donation", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "portfolio-generator",
+    "title": "Portfolio Generator",
+    "description": "A tool that generates static portfolio sites from user inputs.",
+    "tags": ["portfolio", "generator", "frontend"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-blog",
+    "title": "Food Blog Website",
+    "description": "A blogging site focused on recipes, reviews, and food culture.",
+    "tags": ["food", "blog", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "freelancer-marketplace",
+    "title": "Freelancer Marketplace",
+    "description": "A platform for hiring freelancers with bidding, payments, and reviews.",
+    "tags": ["freelance", "jobs", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "portfolio-template",
+    "title": "Portfolio Template Website",
+    "description": "A reusable portfolio template with customizable sections and styles.",
+    "tags": ["portfolio", "template", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "health-blog",
+    "title": "Health Blog Website",
+    "description": "A site featuring health tips, articles, and wellness guides.",
+    "tags": ["health", "blog", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "car-rental",
+    "title": "Car Rental Website",
+    "description": "A booking platform for renting cars with availability and pricing options.",
+    "tags": ["cars", "rental", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fashion-store",
+    "title": "Fashion Store Website",
+    "description": "An online store for clothing with size filters and checkout.",
+    "tags": ["fashion", "ecommerce", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "eco-awareness",
+    "title": "Eco Awareness Website",
+    "description": "An informational site promoting sustainability, eco-tips, and green living.",
+    "tags": ["eco", "sustainability", "frontend"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "movie-review",
+    "title": "Movie Review Site",
+    "description": "A site where users can post and rate movie reviews.",
+    "tags": ["movies", "reviews", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "gaming-community",
+    "title": "Gaming Community Hub",
+    "description": "A platform for gamers to share news, reviews, and game-related discussions.",
+    "tags": ["gaming", "community", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "charity-platform",
+    "title": "Charity Platform",
+    "description": "A platform for NGOs to list causes and manage donations.",
+    "tags": ["charity", "donation", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fashion-blog",
+    "title": "Fashion Blog Website",
+    "description": "A blog site focusing on fashion trends, reviews, and tips.",
+    "tags": ["fashion", "blog", "web"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "portfolio-builder",
+    "title": "Portfolio Builder",
+    "description": "An app for creating custom portfolios with drag-and-drop sections.",
+    "tags": ["portfolio", "builder", "frontend"],
+    "difficulty": "medium"
+  }
       ]
     },
     {
@@ -358,7 +2638,7 @@
       "projects": [
         {
           "id": "todo-app",
-          "title": "Advanced Todo App",
+          "title": "hard Todo App",
           "description": "Feature-rich task management app with categories, deadlines, reminders, collaboration, and progress analytics.",
           "tags": ["productivity", "tasks", "reminders", "collaboration", "mobile"],
           "difficulty": "medium"
@@ -397,7 +2677,336 @@
           "description": "Cooking app with recipe storage, meal planning, shopping list generation, and nutritional information.",
           "tags": ["cooking", "recipes", "meal-planning", "nutrition", "lifestyle"],
           "difficulty": "medium"
-        }
+        },
+        {
+    "id": "todo-app",
+    "title": "To-Do List App",
+    "description": "A mobile app for managing daily tasks with reminders and progress tracking.",
+    "tags": ["productivity", "tasks", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "habit-tracker",
+    "title": "Habit Tracker",
+    "description": "A cross-platform app for tracking habits, streaks, and personal growth.",
+    "tags": ["health", "habits", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "expense-manager",
+    "title": "Expense Manager",
+    "description": "An app for managing personal expenses, budgets, and financial insights.",
+    "tags": ["finance", "tracking", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "language-flashcards",
+    "title": "Language Flashcards App",
+    "description": "A learning app with flashcards, spaced repetition, and quizzes.",
+    "tags": ["education", "learning", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-coach",
+    "title": "Fitness Coach App",
+    "description": "A workout planner and tracker with personalized routines.",
+    "tags": ["fitness", "health", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather Forecast App",
+    "description": "A mobile app that displays real-time weather data and 7-day forecasts.",
+    "tags": ["weather", "api", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chat-app",
+    "title": "Chat Messenger App",
+    "description": "A real-time messaging app with groups, emojis, and notifications.",
+    "tags": ["chat", "communication", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-player",
+    "title": "Music Player App",
+    "description": "A local and streaming music player with playlists and offline support.",
+    "tags": ["music", "media", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "recipe-book",
+    "title": "Recipe Book App",
+    "description": "A mobile app for browsing, saving, and sharing cooking recipes.",
+    "tags": ["food", "recipes", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "qrcode-scanner",
+    "title": "QR Code Scanner App",
+    "description": "A utility app for scanning and generating QR codes.",
+    "tags": ["utility", "scanner", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "notes-app",
+    "title": "Notes Taking App",
+    "description": "A note-taking app with categories, tags, and cloud sync.",
+    "tags": ["notes", "productivity", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "reminder-app",
+    "title": "Reminder App",
+    "description": "A simple reminder app with push notifications and scheduling.",
+    "tags": ["reminder", "utility", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "dictionary-app",
+    "title": "Dictionary App",
+    "description": "A dictionary app with offline mode and word-of-the-day features.",
+    "tags": ["dictionary", "learning", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "shopping-list",
+    "title": "Shopping List App",
+    "description": "A mobile app to create, share, and manage shopping lists.",
+    "tags": ["shopping", "utility", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "stock-portfolio",
+    "title": "Stock Portfolio Tracker",
+    "description": "A finance app for tracking stock portfolios and price alerts.",
+    "tags": ["finance", "stocks", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "travel-planner",
+    "title": "Travel Planner App",
+    "description": "A trip planning app with itineraries, maps, and budgeting tools.",
+    "tags": ["travel", "planning", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "book-reader",
+    "title": "E-Book Reader",
+    "description": "A reading app with library management, bookmarks, and dark mode.",
+    "tags": ["books", "reader", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "mood-journal",
+    "title": "Mood Journal App",
+    "description": "A journaling app to log daily moods, reflections, and stats.",
+    "tags": ["health", "journal", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter App",
+    "description": "A mobile utility app for converting currencies with live rates.",
+    "tags": ["finance", "utility", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "crypto-wallet",
+    "title": "Crypto Wallet App",
+    "description": "A secure wallet for storing and transacting cryptocurrencies.",
+    "tags": ["crypto", "finance", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "news-reader",
+    "title": "News Reader App",
+    "description": "An app that aggregates news from multiple sources with categories.",
+    "tags": ["news", "media", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calendar-app",
+    "title": "Calendar App",
+    "description": "A cross-platform calendar with reminders, sync, and events.",
+    "tags": ["calendar", "productivity", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "video-calling",
+    "title": "Video Calling App",
+    "description": "A mobile video calling app with group chat and screen sharing.",
+    "tags": ["video", "chat", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "expense-splitter",
+    "title": "Expense Splitter App",
+    "description": "A group finance app for splitting bills and tracking balances.",
+    "tags": ["finance", "friends", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "learning-cards",
+    "title": "Learning Cards App",
+    "description": "A flashcard app with custom decks, quizzes, and spaced repetition.",
+    "tags": ["learning", "education", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "photo-editor",
+    "title": "Photo Editor App",
+    "description": "A mobile photo editing app with filters, stickers, and cropping.",
+    "tags": ["photos", "editing", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "document-scanner",
+    "title": "Document Scanner App",
+    "description": "An app to scan, crop, and save documents as PDFs.",
+    "tags": ["scanner", "utility", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-diet",
+    "title": "Fitness & Diet App",
+    "description": "An app for diet planning, calorie tracking, and workout logs.",
+    "tags": ["fitness", "diet", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "health-monitor",
+    "title": "Health Monitor App",
+    "description": "A health app that integrates with wearable devices for activity tracking.",
+    "tags": ["health", "iot", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "game-tic-tac-toe",
+    "title": "Tic Tac Toe Game",
+    "description": "A simple cross-platform Tic Tac Toe mobile game.",
+    "tags": ["game", "mobile", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chess-game",
+    "title": "Chess Game App",
+    "description": "A multiplayer chess game with AI and online matchmaking.",
+    "tags": ["game", "chess", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "budget-planner",
+    "title": "Budget Planner App",
+    "description": "An app to plan monthly budgets, track expenses, and savings goals.",
+    "tags": ["finance", "budget", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "inventory-manager",
+    "title": "Inventory Manager App",
+    "description": "A desktop/mobile app to track stock, suppliers, and invoices.",
+    "tags": ["inventory", "business", "desktop"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "voice-notes",
+    "title": "Voice Notes App",
+    "description": "An app to record, save, and transcribe audio notes.",
+    "tags": ["voice", "notes", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "movie-tickets",
+    "title": "Movie Ticket Booking App",
+    "description": "An app for browsing movies, booking tickets, and making payments.",
+    "tags": ["movies", "booking", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "grocery-delivery",
+    "title": "Grocery Delivery App",
+    "description": "An on-demand app for ordering groceries with delivery tracking.",
+    "tags": ["grocery", "delivery", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "language-translator",
+    "title": "Language Translator App",
+    "description": "A cross-platform translation app with speech-to-text features.",
+    "tags": ["language", "translation", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "campus-connect",
+    "title": "Campus Connect App",
+    "description": "A student networking app for events, groups, and study resources.",
+    "tags": ["education", "social", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-ordering",
+    "title": "Food Ordering App",
+    "description": "An app for browsing restaurants, placing food orders, and making payments.",
+    "tags": ["food", "ordering", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ride-sharing",
+    "title": "Ride Sharing App",
+    "description": "An Uber-like app for booking rides and sharing trips.",
+    "tags": ["rides", "maps", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "social-media",
+    "title": "Mini Social Media App",
+    "description": "A simple social app with profiles, posts, and likes.",
+    "tags": ["social", "community", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "contact-manager",
+    "title": "Contact Manager App",
+    "description": "An app to manage and organize phone contacts with backup options.",
+    "tags": ["contacts", "utility", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "loyalty-cards",
+    "title": "Loyalty Cards Wallet",
+    "description": "A wallet app to store digital loyalty and membership cards.",
+    "tags": ["wallet", "cards", "mobile"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "productivity-timer",
+    "title": "Productivity Timer App",
+    "description": "A Pomodoro timer app for focused work and time tracking.",
+    "tags": ["productivity", "timer", "mobile"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "desktop-notepad",
+    "title": "Desktop Notepad App",
+    "description": "A simple cross-platform desktop notepad with search and formatting.",
+    "tags": ["desktop", "notes", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "vpn-app",
+    "title": "VPN Client App",
+    "description": "A secure VPN app for encrypting and protecting user internet activity.",
+    "tags": ["vpn", "security", "mobile"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "auction-app",
+    "title": "Auction Bidding App",
+    "description": "A marketplace app where users can bid on items in real-time.",
+    "tags": ["auction", "marketplace", "mobile"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -447,7 +3056,336 @@
           "description": "Digital pet simulation with feeding, playing, health monitoring, evolution, and interactive mini-games.",
           "tags": ["simulation", "pet", "game", "virtual", "interaction"],
           "difficulty": "medium"
-        }
+        },
+        {
+    "id": "tic-tac-toe-game",
+    "title": "Tic Tac Toe Game",
+    "description": "A simple two-player Tic Tac Toe game with a fun UI.",
+    "tags": ["game", "fun", "beginner"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "meme-generator",
+    "title": "Meme Generator",
+    "description": "A web app to create custom memes with text overlays.",
+    "tags": ["meme", "fun", "images"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "joke-app",
+    "title": "Random Joke App",
+    "description": "An app that fetches and displays random jokes from an API.",
+    "tags": ["jokes", "api", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "rock-paper-scissors",
+    "title": "Rock Paper Scissors Game",
+    "description": "A classic game where the user plays against the computer.",
+    "tags": ["game", "fun", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "gif-search",
+    "title": "GIF Search App",
+    "description": "A fun app to search for and share GIFs using the Giphy API.",
+    "tags": ["gif", "api", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "quiz-fun",
+    "title": "Fun Quiz App",
+    "description": "An interactive quiz app with multiple-choice questions and scoring.",
+    "tags": ["quiz", "game", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fortune-cookie",
+    "title": "Fortune Cookie App",
+    "description": "An app that gives a random fortune or life tip when clicked.",
+    "tags": ["fun", "random", "motivation"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "trivia-game",
+    "title": "Trivia Game",
+    "description": "A timed trivia game with questions, answers, and scoring.",
+    "tags": ["game", "trivia", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "emoji-guess",
+    "title": "Emoji Guessing Game",
+    "description": "Guess the word or phrase represented by a sequence of emojis.",
+    "tags": ["emoji", "game", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "virtual-pet",
+    "title": "Virtual Pet Simulator",
+    "description": "A pet care app where users feed, play, and take care of a virtual pet.",
+    "tags": ["game", "pet", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "dance-dance",
+    "title": "Dance Dance Game",
+    "description": "A rhythm-based game where players press keys in sync with music.",
+    "tags": ["game", "music", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "soundboard",
+    "title": "Soundboard App",
+    "description": "A fun soundboard that plays funny sound effects on button clicks.",
+    "tags": ["sound", "fun", "media"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "cartoon-avatar",
+    "title": "Cartoon Avatar Creator",
+    "description": "An app that lets users design custom cartoon avatars.",
+    "tags": ["avatar", "fun", "images"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "mad-libs",
+    "title": "Mad Libs Generator",
+    "description": "A word game where users fill in blanks to create funny stories.",
+    "tags": ["game", "words", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "name-generator",
+    "title": "Random Name Generator",
+    "description": "An app that generates funny or fantasy-style random names.",
+    "tags": ["random", "fun", "generator"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "typing-speed",
+    "title": "Typing Speed Test",
+    "description": "A typing game that tests how fast and accurately you can type.",
+    "tags": ["typing", "game", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "maze-game",
+    "title": "Maze Runner Game",
+    "description": "A game where users navigate through a randomly generated maze.",
+    "tags": ["game", "maze", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2048-game",
+    "title": "2048 Puzzle Game",
+    "description": "A number puzzle game where players merge tiles to reach 2048.",
+    "tags": ["game", "puzzle", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "whack-a-mole",
+    "title": "Whack-a-Mole Game",
+    "description": "A fun game where users tap or click on moles popping up randomly.",
+    "tags": ["game", "arcade", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flappy-bird-clone",
+    "title": "Flappy Bird Clone",
+    "description": "A clone of the famous Flappy Bird game with customizable themes.",
+    "tags": ["game", "fun", "clone"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hangman-game",
+    "title": "Hangman Game",
+    "description": "A classic word-guessing game with hints and difficulty levels.",
+    "tags": ["game", "words", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "magic-8-ball",
+    "title": "Magic 8 Ball",
+    "description": "A fun prediction app that gives random answers to yes/no questions.",
+    "tags": ["fun", "random", "game"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "memory-cards",
+    "title": "Memory Card Game",
+    "description": "A card-flipping game to test memory with different difficulty levels.",
+    "tags": ["game", "memory", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pixel-drawing",
+    "title": "Pixel Art Drawing App",
+    "description": "A fun drawing app where users can create pixel art designs.",
+    "tags": ["art", "drawing", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-quiz",
+    "title": "Music Guessing Quiz",
+    "description": "A quiz game where players guess songs from short audio clips.",
+    "tags": ["music", "quiz", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fake-hacker",
+    "title": "Fake Hacker Terminal",
+    "description": "A fun app that simulates a fake hacking terminal with animations.",
+    "tags": ["fun", "simulation", "prank"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "pong-game",
+    "title": "Pong Game",
+    "description": "A remake of the classic Pong game with single and multiplayer modes.",
+    "tags": ["game", "arcade", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "description": "A classic Snake game where players grow longer by eating food.",
+    "tags": ["game", "arcade", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "color-guess",
+    "title": "Color Guessing Game",
+    "description": "A game where users guess the correct color from RGB values.",
+    "tags": ["game", "color", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "space-invaders",
+    "title": "Space Invaders Clone",
+    "description": "A shooting game inspired by the classic Space Invaders.",
+    "tags": ["game", "arcade", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "karaoke-app",
+    "title": "Karaoke App",
+    "description": "A fun app where users can sing along to songs with lyrics displayed.",
+    "tags": ["music", "karaoke", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fortune-spinner",
+    "title": "Fortune Spinner Wheel",
+    "description": "A wheel spinner app that picks random fortunes or prizes.",
+    "tags": ["game", "fun", "random"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "bubble-shooter",
+    "title": "Bubble Shooter Game",
+    "description": "A fun arcade game where users shoot bubbles to clear the screen.",
+    "tags": ["game", "arcade", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pong-with-ai",
+    "title": "AI Pong Game",
+    "description": "A Pong game where users play against a basic AI opponent.",
+    "tags": ["game", "ai", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "guess-number",
+    "title": "Guess the Number Game",
+    "description": "A game where players guess a number within a limited range.",
+    "tags": ["game", "numbers", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "avatar-randomizer",
+    "title": "Random Avatar Generator",
+    "description": "An app that generates random avatars with different styles.",
+    "tags": ["avatar", "fun", "generator"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "mini-golf",
+    "title": "Mini Golf Game",
+    "description": "A fun 2D mini golf game with multiple levels and physics.",
+    "tags": ["game", "sports", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "lego-builder",
+    "title": "Lego Builder Simulator",
+    "description": "A creative sandbox app where users build with digital Lego blocks.",
+    "tags": ["game", "lego", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ascii-art",
+    "title": "ASCII Art Generator",
+    "description": "A fun app that converts text or images into ASCII art.",
+    "tags": ["art", "fun", "generator"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "riddle-app",
+    "title": "Riddle Game App",
+    "description": "An app that asks random riddles and reveals answers on demand.",
+    "tags": ["riddles", "fun", "game"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "avatar-dressup",
+    "title": "Avatar Dress-Up Game",
+    "description": "A fun drag-and-drop dress-up game for avatars.",
+    "tags": ["game", "avatar", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "cat-sounds",
+    "title": "Cat Sounds App",
+    "description": "A funny app that plays random cat sounds when tapped.",
+    "tags": ["fun", "animals", "sound"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "random-quote",
+    "title": "Random Quote Generator",
+    "description": "An app that displays random inspirational or funny quotes.",
+    "tags": ["quotes", "fun", "random"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "guess-song",
+    "title": "Guess the Song Game",
+    "description": "A game where players guess the song from short audio clips.",
+    "tags": ["music", "quiz", "fun"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "paper-scissors-ai",
+    "title": "Rock Paper Scissors with AI",
+    "description": "An AI-powered twist on Rock Paper Scissors where the computer adapts.",
+    "tags": ["game", "ai", "fun"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fake-virus",
+    "title": "Fake Virus Prank App",
+    "description": "A harmless prank app that simulates a fake virus warning screen.",
+    "tags": ["fun", "prank", "simulation"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "virtual-drums",
+    "title": "Virtual Drums App",
+    "description": "A musical app where users can play virtual drums using clicks or taps.",
+    "tags": ["music", "drums", "fun"],
+    "difficulty": "medium"
+  }
       ]
     },
     {
@@ -497,7 +3435,336 @@
           "description": "Financial analysis tool with stock data retrieval, technical indicators, portfolio tracking, and prediction models.",
           "tags": ["finance", "stocks", "analysis", "prediction", "data"],
           "difficulty": "hard"
-        }
+        },
+         {
+    "id": "todo-cli",
+    "title": "To-Do List CLI App",
+    "description": "A command-line app to manage daily tasks with add, delete, and mark-done features.",
+    "tags": ["python", "cli", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "weather-cli",
+    "title": "Weather App",
+    "description": "A Python app that fetches weather information from an API and displays it in the console.",
+    "tags": ["python", "api", "weather"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "description": "A Python tool that converts between different units like length, weight, and temperature.",
+    "tags": ["python", "math", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "calculator-gui",
+    "title": "Calculator with GUI",
+    "description": "A Python calculator app built using Tkinter for basic arithmetic operations.",
+    "tags": ["python", "gui", "math"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "alarm-clock",
+    "title": "Alarm Clock",
+    "description": "A Python app that lets users set alarms with sound notifications.",
+    "tags": ["python", "time", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "quiz-game",
+    "title": "Python Quiz Game",
+    "description": "A text-based multiple-choice quiz game in Python.",
+    "tags": ["python", "quiz", "game"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "file-renamer",
+    "title": "Bulk File Renamer",
+    "description": "A script to rename multiple files at once with custom patterns.",
+    "tags": ["python", "automation", "files"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A Python app to log daily expenses and generate simple reports.",
+    "tags": ["python", "finance", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "image-resizer",
+    "title": "Image Resizer",
+    "description": "A Python script using PIL to resize and optimize images.",
+    "tags": ["python", "images", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "markdown-viewer",
+    "title": "Markdown Viewer",
+    "description": "A Python GUI app to render and preview Markdown files.",
+    "tags": ["python", "markdown", "gui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "A Python app that fetches live exchange rates and converts currencies.",
+    "tags": ["python", "api", "finance"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "description": "A Python tool that generates strong random passwords with user-defined rules.",
+    "tags": ["python", "security", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "contact-book",
+    "title": "Contact Book",
+    "description": "A Python GUI app to store, search, and manage contact details.",
+    "tags": ["python", "gui", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "blog-flask",
+    "title": "Flask Blog App",
+    "description": "A simple blogging platform built using Flask with CRUD features.",
+    "tags": ["python", "flask", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "url-shortener",
+    "title": "URL Shortener",
+    "description": "A Python web app that shortens long URLs using Flask and SQLite.",
+    "tags": ["python", "flask", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "chatbot",
+    "title": "Rule-Based Chatbot",
+    "description": "A simple chatbot built with Python using NLTK for predefined responses.",
+    "tags": ["python", "chatbot", "nlp"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "text-summarizer",
+    "title": "Text Summarizer",
+    "description": "A Python script that summarizes large text using NLP libraries.",
+    "tags": ["python", "nlp", "utility"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "movie-recommendation",
+    "title": "Movie Recommendation System",
+    "description": "A Python-based recommendation engine using collaborative filtering.",
+    "tags": ["python", "ml", "recommendation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "description": "A classic Snake game implemented in Python using Pygame.",
+    "tags": ["python", "game", "pygame"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pong-game",
+    "title": "Pong Game",
+    "description": "A two-player Pong game made with Python and Pygame.",
+    "tags": ["python", "game", "pygame"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "web-scraper",
+    "title": "Web Scraper",
+    "description": "A Python script to scrape news headlines or product prices from websites.",
+    "tags": ["python", "scraping", "automation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pdf-merger",
+    "title": "PDF Merger and Splitter",
+    "description": "A Python utility to merge or split PDF files using PyPDF2.",
+    "tags": ["python", "pdf", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stock-analyzer",
+    "title": "Stock Market Analyzer",
+    "description": "A Python app that analyzes stock price trends using pandas and matplotlib.",
+    "tags": ["python", "finance", "data"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "speech-recognizer",
+    "title": "Speech to Text App",
+    "description": "A Python app that converts spoken audio into text using SpeechRecognition.",
+    "tags": ["python", "speech", "nlp"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "translator",
+    "title": "Language Translator",
+    "description": "A Python tool that translates text into multiple languages using Google Translate API.",
+    "tags": ["python", "api", "translation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-player",
+    "title": "Music Player",
+    "description": "A Python desktop app to play music files with a GUI interface.",
+    "tags": ["python", "gui", "media"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "tic-tac-toe",
+    "title": "Tic Tac Toe Game",
+    "description": "A two-player Tic Tac Toe game built with Python and Tkinter.",
+    "tags": ["python", "game", "gui"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "library-management",
+    "title": "Library Management System",
+    "description": "A Python app to manage book records and borrowers with SQLite database.",
+    "tags": ["python", "database", "utility"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "face-detection",
+    "title": "Face Detection App",
+    "description": "A Python app using OpenCV to detect faces in images and videos.",
+    "tags": ["python", "opencv", "ai"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "handwritten-digit",
+    "title": "Handwritten Digit Recognition",
+    "description": "A Python ML project using MNIST dataset and TensorFlow/Keras.",
+    "tags": ["python", "ml", "digits"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "expense-pdf",
+    "title": "Expense Report Generator",
+    "description": "A Python script to generate expense reports as PDF files.",
+    "tags": ["python", "pdf", "finance"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "twitter-bot",
+    "title": "Twitter Bot",
+    "description": "A Python bot that posts tweets automatically using Tweepy.",
+    "tags": ["python", "api", "automation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "email-sender",
+    "title": "Email Automation",
+    "description": "A Python script to send automated emails with attachments.",
+    "tags": ["python", "email", "automation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "todo-django",
+    "title": "Django To-Do App",
+    "description": "A to-do list web application built with Django framework.",
+    "tags": ["python", "django", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Personal Portfolio Website",
+    "description": "A portfolio site built with Django showcasing projects and skills.",
+    "tags": ["python", "django", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ocr-reader",
+    "title": "OCR Text Reader",
+    "description": "A Python app using Tesseract OCR to extract text from images.",
+    "tags": ["python", "ocr", "images"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "currency-alert",
+    "title": "Currency Rate Alert",
+    "description": "A Python script that monitors exchange rates and sends alerts.",
+    "tags": ["python", "api", "finance"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "desktop-notifier",
+    "title": "Desktop Notifier",
+    "description": "A Python app that shows desktop notifications for reminders and updates.",
+    "tags": ["python", "notifications", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chat-app",
+    "title": "Python Chat App",
+    "description": "A client-server chat application built with Python sockets.",
+    "tags": ["python", "networking", "chat"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "data-visualizer",
+    "title": "Data Visualization Dashboard",
+    "description": "A Python app that visualizes data interactively using Plotly and Dash.",
+    "tags": ["python", "data", "visualization"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "invoice-generator",
+    "title": "Invoice Generator",
+    "description": "A Python script to generate invoices in PDF format for businesses.",
+    "tags": ["python", "pdf", "business"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "number-guess",
+    "title": "Number Guessing Game",
+    "description": "A simple Python game where the user guesses a random number.",
+    "tags": ["python", "game", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "plagiarism-checker",
+    "title": "Plagiarism Checker",
+    "description": "A Python app that detects text similarity between documents.",
+    "tags": ["python", "nlp", "utility"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ai-assistant",
+    "title": "Voice AI Assistant",
+    "description": "A Python app that performs tasks like search, play music, and tell time using speech commands.",
+    "tags": ["python", "ai", "speech"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "markdown-to-pdf",
+    "title": "Markdown to PDF Converter",
+    "description": "A Python script that converts Markdown documents into styled PDFs.",
+    "tags": ["python", "markdown", "pdf"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "image-filter",
+    "title": "Image Filter App",
+    "description": "A Python script to apply filters and effects to images using OpenCV.",
+    "tags": ["python", "opencv", "images"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "blog-django",
+    "title": "Django Blog CMS",
+    "description": "A full-featured blogging platform with admin controls using Django.",
+    "tags": ["python", "django", "cms"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -530,7 +3797,7 @@
         {
           "id": "file-manager",
           "title": "File Management System",
-          "description": "Desktop application for advanced file operations with search, organization, compression, and network file access.",
+          "description": "Desktop application for hard file operations with search, organization, compression, and network file access.",
           "tags": ["file-system", "desktop", "organization", "search", "utilities"],
           "difficulty": "medium"
         },
@@ -547,7 +3814,343 @@
           "description": "Secure messaging application for businesses with encryption, file sharing, group chats, and admin controls.",
           "tags": ["messaging", "enterprise", "encryption", "file-sharing", "security"],
           "difficulty": "hard"
-        }
+        },
+         {
+    "id": "student-management",
+    "title": "Student Management System",
+    "description": "A Java application to manage student records, courses, and grades.",
+    "tags": ["java", "database", "education"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "library-management",
+    "title": "Library Management System",
+    "description": "A Java project to manage book lending, returns, and library membership.",
+    "tags": ["java", "database", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "banking-system",
+    "title": "Banking System",
+    "description": "A Java program to handle account creation, deposits, withdrawals, and balance inquiry.",
+    "tags": ["java", "finance", "oop"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "inventory-system",
+    "title": "Inventory Management System",
+    "description": "A Java desktop app to track product stock, suppliers, and sales.",
+    "tags": ["java", "database", "business"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "employee-payroll",
+    "title": "Employee Payroll System",
+    "description": "A payroll management system in Java to calculate salaries, taxes, and reports.",
+    "tags": ["java", "payroll", "business"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hotel-reservation",
+    "title": "Hotel Reservation System",
+    "description": "A Java project to book rooms, manage customers, and handle check-in/check-out.",
+    "tags": ["java", "hospitality", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chat-application",
+    "title": "Chat Application",
+    "description": "A client-server chat app built using Java sockets for real-time messaging.",
+    "tags": ["java", "networking", "chat"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ecommerce-app",
+    "title": "E-Commerce Application",
+    "description": "A Java application for online shopping with cart, orders, and payments.",
+    "tags": ["java", "ecommerce", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "railway-reservation",
+    "title": "Railway Reservation System",
+    "description": "A Java project to book train tickets, manage passengers, and track schedules.",
+    "tags": ["java", "transport", "booking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "airline-reservation",
+    "title": "Airline Reservation System",
+    "description": "A Java system to handle airline bookings, seat availability, and passenger records.",
+    "tags": ["java", "transport", "booking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hospital-management",
+    "title": "Hospital Management System",
+    "description": "A Java application to manage patients, doctors, and appointments.",
+    "tags": ["java", "healthcare", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A Java app to log daily expenses, categorize them, and view reports.",
+    "tags": ["java", "finance", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "atm-simulator",
+    "title": "ATM Simulator",
+    "description": "A Java simulation of ATM operations like cash withdrawal and balance check.",
+    "tags": ["java", "finance", "simulation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "quiz-app",
+    "title": "Quiz Application",
+    "description": "A Java-based quiz app with multiple-choice questions and scoring.",
+    "tags": ["java", "quiz", "game"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "online-banking",
+    "title": "Online Banking System",
+    "description": "A secure online banking application built using Java and JDBC.",
+    "tags": ["java", "finance", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "course-management",
+    "title": "Course Management System",
+    "description": "A Java application for universities to manage courses, students, and enrollment.",
+    "tags": ["java", "education", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "restaurant-order",
+    "title": "Restaurant Ordering System",
+    "description": "A Java project to manage restaurant orders, billing, and menu items.",
+    "tags": ["java", "food", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "parking-system",
+    "title": "Smart Parking System",
+    "description": "A Java app that manages parking slots and billing in real-time.",
+    "tags": ["java", "transport", "iot"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "voting-system",
+    "title": "Online Voting System",
+    "description": "A secure Java-based voting application with authentication and tallying.",
+    "tags": ["java", "election", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crm-tool",
+    "title": "CRM Tool",
+    "description": "A Java application for managing customer relationships and sales pipelines.",
+    "tags": ["java", "business", "crm"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "social-network",
+    "title": "Social Networking App",
+    "description": "A Java project to create a mini social media app with posts, likes, and friends.",
+    "tags": ["java", "social", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "billing-system",
+    "title": "Billing System",
+    "description": "A Java app to generate bills and invoices for retail shops.",
+    "tags": ["java", "billing", "retail"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "notepad-clone",
+    "title": "Notepad Clone",
+    "description": "A Java Swing-based text editor with file open, save, and edit features.",
+    "tags": ["java", "gui", "editor"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "bank-loan-system",
+    "title": "Bank Loan Management",
+    "description": "A Java system to handle loan applications, approvals, and EMI calculations.",
+    "tags": ["java", "finance", "database"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "fitness-tracker",
+    "title": "Fitness Tracker",
+    "description": "A Java app to log workouts, calories, and fitness goals.",
+    "tags": ["java", "health", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "task-manager",
+    "title": "Task Manager",
+    "description": "A Java project to manage tasks with deadlines, categories, and progress.",
+    "tags": ["java", "productivity", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "vehicle-rental",
+    "title": "Vehicle Rental System",
+    "description": "A Java application to manage vehicle bookings, returns, and billing.",
+    "tags": ["java", "transport", "rental"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "banking-chatbot",
+    "title": "Banking Chatbot",
+    "description": "A chatbot built in Java to answer customer queries in banking.",
+    "tags": ["java", "ai", "chatbot"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "file-compressor",
+    "title": "File Compression Tool",
+    "description": "A Java tool to compress and decompress files using Huffman coding.",
+    "tags": ["java", "compression", "files"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "shopping-cart",
+    "title": "Shopping Cart System",
+    "description": "A Java e-commerce project to add products, manage cart, and checkout.",
+    "tags": ["java", "ecommerce", "web"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hotel-billing",
+    "title": "Hotel Billing System",
+    "description": "A Java program to generate invoices for hotel stays and services.",
+    "tags": ["java", "billing", "hospitality"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stock-market",
+    "title": "Stock Market Simulator",
+    "description": "A Java application that simulates buying, selling, and tracking stocks.",
+    "tags": ["java", "finance", "simulation"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "attendance-system",
+    "title": "Attendance Management System",
+    "description": "A Java app to track student or employee attendance with reports.",
+    "tags": ["java", "education", "attendance"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "chat-server",
+    "title": "Multi-Client Chat Server",
+    "description": "A Java networking project for a multi-client chat server.",
+    "tags": ["java", "networking", "chat"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "flight-price-tracker",
+    "title": "Flight Price Tracker",
+    "description": "A Java application that fetches and tracks flight ticket prices.",
+    "tags": ["java", "transport", "api"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "car-pool",
+    "title": "Car Pooling System",
+    "description": "A Java app to connect drivers and riders for ride-sharing.",
+    "tags": ["java", "transport", "sharing"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "game-tetris",
+    "title": "Tetris Game",
+    "description": "A Tetris clone built using Java Swing.",
+    "tags": ["java", "game", "swing"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bank-ledger",
+    "title": "Bank Ledger System",
+    "description": "A Java system to maintain customer accounts, transactions, and balances.",
+    "tags": ["java", "finance", "database"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-delivery",
+    "title": "Food Delivery App",
+    "description": "A Java project to manage food delivery orders, restaurants, and customers.",
+    "tags": ["java", "food", "delivery"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "event-management",
+    "title": "Event Management System",
+    "description": "A Java application to manage events, bookings, and participants.",
+    "tags": ["java", "events", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "banking-api",
+    "title": "Banking REST API",
+    "description": "A RESTful banking API built using Java Spring Boot.",
+    "tags": ["java", "api", "springboot"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "job-portal",
+    "title": "Job Portal",
+    "description": "A Java application to post jobs, apply, and manage recruitment.",
+    "tags": ["java", "jobs", "web"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "tax-calculator",
+    "title": "Tax Calculator",
+    "description": "A Java program that calculates taxes based on income slabs.",
+    "tags": ["java", "finance", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "A Java desktop app to convert between currencies with real-time exchange rates.",
+    "tags": ["java", "finance", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "logistics-system",
+    "title": "Logistics Management System",
+    "description": "A Java system to manage deliveries, shipments, and logistics tracking.",
+    "tags": ["java", "logistics", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "school-exam",
+    "title": "Online Examination System",
+    "description": "A Java project to conduct online tests with multiple-choice questions.",
+    "tags": ["java", "education", "exam"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "banking-app-gui",
+    "title": "Banking GUI App",
+    "description": "A Java Swing app to manage accounts and transactions visually.",
+    "tags": ["java", "gui", "banking"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "traffic-simulator",
+    "title": "Traffic Simulator",
+    "description": "A Java application that simulates traffic flow and signals.",
+    "tags": ["java", "simulation", "transport"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -597,7 +4200,343 @@
           "description": "Security tool for scanning network ports, detecting services, and analyzing network connectivity and vulnerabilities.",
           "tags": ["networking", "security", "ports", "scanning", "sockets"],
           "difficulty": "medium"
-        }
+        },
+        {
+    "id": "student-record-system",
+    "title": "Student Record Management",
+    "description": "A C program to add, update, delete, and view student records using file handling.",
+    "tags": ["c", "file-handling", "education"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "bank-management",
+    "title": "Bank Management System",
+    "description": "A C project to manage bank accounts, deposits, withdrawals, and transactions.",
+    "tags": ["c", "finance", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "library-management",
+    "title": "Library Management System",
+    "description": "A C application to manage books, borrowers, and lending records.",
+    "tags": ["c", "file-handling", "management"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hospital-management",
+    "title": "Hospital Management System",
+    "description": "A C program to manage patients, doctors, and appointments.",
+    "tags": ["c", "healthcare", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "tic-tac-toe",
+    "title": "Tic Tac Toe Game",
+    "description": "A simple two-player Tic Tac Toe game built in C.",
+    "tags": ["c", "game", "beginner"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "description": "A console-based Snake game implemented in C.",
+    "tags": ["c", "game", "console"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "quiz-game",
+    "title": "Quiz Game",
+    "description": "A C program that asks multiple-choice questions and tracks scores.",
+    "tags": ["c", "quiz", "game"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "calculator",
+    "title": "Simple Calculator",
+    "description": "A calculator program in C that performs basic arithmetic operations.",
+    "tags": ["c", "math", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sorting-algorithms",
+    "title": "Sorting Algorithm Visualizer",
+    "description": "A C program to demonstrate sorting algorithms like bubble sort and quicksort.",
+    "tags": ["c", "algorithms", "sorting"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "linked-list",
+    "title": "Linked List Implementation",
+    "description": "A C program to demonstrate singly and doubly linked lists.",
+    "tags": ["c", "data-structures", "linked-list"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stack-queue",
+    "title": "Stack and Queue",
+    "description": "A C implementation of stack and queue operations with arrays and linked lists.",
+    "tags": ["c", "data-structures", "stack-queue"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hotel-reservation",
+    "title": "Hotel Reservation System",
+    "description": "A C application to manage hotel bookings and billing.",
+    "tags": ["c", "hospitality", "management"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "phonebook",
+    "title": "Phonebook Application",
+    "description": "A C project to store and manage contacts using file handling.",
+    "tags": ["c", "file-handling", "contacts"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "number-guess",
+    "title": "Number Guessing Game",
+    "description": "A game in C where the user guesses a randomly generated number.",
+    "tags": ["c", "game", "fun"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "matrix-calculator",
+    "title": "Matrix Calculator",
+    "description": "A C program to perform matrix operations like addition, multiplication, and transpose.",
+    "tags": ["c", "math", "matrix"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "A C project to convert currencies with user-defined rates.",
+    "tags": ["c", "finance", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "atm-simulator",
+    "title": "ATM Simulator",
+    "description": "A C project that simulates ATM transactions such as withdrawal and balance inquiry.",
+    "tags": ["c", "finance", "simulation"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "gpa-calculator",
+    "title": "GPA Calculator",
+    "description": "A C program to calculate GPA from student grades.",
+    "tags": ["c", "education", "math"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "voting-system",
+    "title": "Voting System",
+    "description": "A C application to conduct elections and count votes securely.",
+    "tags": ["c", "election", "system"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper Game",
+    "description": "A console-based version of Minesweeper built in C.",
+    "tags": ["c", "game", "console"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "bus-reservation",
+    "title": "Bus Reservation System",
+    "description": "A C project for booking bus tickets and managing passenger details.",
+    "tags": ["c", "transport", "booking"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "railway-reservation",
+    "title": "Railway Reservation System",
+    "description": "A C application to manage train ticket bookings and schedules.",
+    "tags": ["c", "transport", "booking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "employee-payroll",
+    "title": "Employee Payroll System",
+    "description": "A payroll system in C to calculate salaries and deductions.",
+    "tags": ["c", "payroll", "business"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-encryption",
+    "title": "File Encryption Tool",
+    "description": "A C program to encrypt and decrypt files using simple ciphers.",
+    "tags": ["c", "security", "file-handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "chat-app",
+    "title": "Console Chat Application",
+    "description": "A simple client-server chat application built with C sockets.",
+    "tags": ["c", "networking", "chat"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "traffic-simulator",
+    "title": "Traffic Light Simulator",
+    "description": "A C program to simulate traffic light signals with timing logic.",
+    "tags": ["c", "simulation", "traffic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prime-checker",
+    "title": "Prime Number Checker",
+    "description": "A C program to check whether a number is prime or not.",
+    "tags": ["c", "math", "prime"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "plagiarism-checker",
+    "title": "Plagiarism Checker",
+    "description": "A C program that compares documents to find similarity percentages.",
+    "tags": ["c", "text", "file-handling"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "calendar-app",
+    "title": "Calendar Application",
+    "description": "A C program to display a yearly calendar with date lookup.",
+    "tags": ["c", "time", "calendar"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "simple-shell",
+    "title": "Simple Shell",
+    "description": "A basic shell in C that can run system commands.",
+    "tags": ["c", "os", "shell"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "memory-allocator",
+    "title": "Custom Memory Allocator",
+    "description": "A C project implementing malloc() and free() functions.",
+    "tags": ["c", "memory", "os"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "description": "A C program to solve Sudoku puzzles using backtracking.",
+    "tags": ["c", "game", "algorithm"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather Forecast App",
+    "description": "A C program that fetches and displays weather details via APIs.",
+    "tags": ["c", "api", "weather"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "url-shortener",
+    "title": "URL Shortener",
+    "description": "A C application to shorten long URLs and store them in a file.",
+    "tags": ["c", "web", "file-handling"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "compiler-mini",
+    "title": "Mini Compiler",
+    "description": "A simple compiler in C that parses and interprets basic arithmetic expressions.",
+    "tags": ["c", "compiler", "parser"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "os-scheduler",
+    "title": "CPU Scheduling Simulator",
+    "description": "A C project to simulate CPU scheduling algorithms like FCFS, SJF, and Round Robin.",
+    "tags": ["c", "os", "scheduling"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "banking-chatbot",
+    "title": "Banking Chatbot",
+    "description": "A C program that mimics a rule-based chatbot for basic banking services.",
+    "tags": ["c", "chatbot", "ai"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "simple-http",
+    "title": "Simple HTTP Server",
+    "description": "A lightweight HTTP server built in C using sockets.",
+    "tags": ["c", "networking", "server"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-player",
+    "title": "Console Music Player",
+    "description": "A C application to play simple audio files from the console.",
+    "tags": ["c", "media", "console"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "file-compressor",
+    "title": "File Compression Tool",
+    "description": "A C program implementing Huffman coding to compress and decompress files.",
+    "tags": ["c", "compression", "files"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hotel-billing",
+    "title": "Hotel Billing System",
+    "description": "A C application to generate bills for hotel stays and food services.",
+    "tags": ["c", "billing", "hospitality"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "password-manager",
+    "title": "Password Manager",
+    "description": "A C program to securely store and retrieve user passwords.",
+    "tags": ["c", "security", "file-handling"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "flight-reservation",
+    "title": "Flight Reservation System",
+    "description": "A C project to book and manage airline tickets and passenger details.",
+    "tags": ["c", "transport", "booking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "maze-solver",
+    "title": "Maze Solver",
+    "description": "A C program that solves a maze using depth-first or breadth-first search.",
+    "tags": ["c", "algorithms", "maze"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "simple-db",
+    "title": "Simple Database",
+    "description": "A C project that implements a mini database with CRUD operations.",
+    "tags": ["c", "database", "file-handling"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "hangman",
+    "title": "Hangman Game",
+    "description": "A console-based Hangman game built in C.",
+    "tags": ["c", "game", "console"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chat-server",
+    "title": "Multi-Client Chat Server",
+    "description": "A C networking project implementing a multi-client chat system with sockets.",
+    "tags": ["c", "networking", "chat"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "process-manager",
+    "title": "Process Manager",
+    "description": "A C project that mimics process creation and termination like an OS.",
+    "tags": ["c", "os", "process"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -647,7 +4586,350 @@
           "description": "Tool for creating custom forms with drag-and-drop field placement, validation rules, and response collection.",
           "tags": ["forms", "form-builder", "validation", "dynamic", "drag-drop"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "portfolio-website",
+    "title": "Personal Portfolio Website",
+    "description": "A responsive portfolio to showcase projects, skills, and contact details.",
+    "tags": ["frontend", "html", "css", "responsive"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "todo-app",
+    "title": "To-Do List App",
+    "description": "A simple task manager with add, edit, and delete functionality.",
+    "tags": ["frontend", "javascript", "productivity"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather App",
+    "description": "A frontend app that fetches and displays weather using an API.",
+    "tags": ["frontend", "api", "weather"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calculator",
+    "title": "Calculator",
+    "description": "A frontend calculator for basic arithmetic operations.",
+    "tags": ["frontend", "javascript", "math"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "quiz-app",
+    "title": "Quiz Application",
+    "description": "A multiple-choice quiz app with scoring and timer features.",
+    "tags": ["frontend", "quiz", "javascript"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "recipe-app",
+    "title": "Recipe Finder",
+    "description": "A food recipe search app using a public API with filters.",
+    "tags": ["frontend", "api", "food"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A simple app to track income, expenses, and balance visually.",
+    "tags": ["frontend", "finance", "charts"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-player",
+    "title": "Music Player UI",
+    "description": "A custom music player interface with play, pause, and playlist.",
+    "tags": ["frontend", "media", "ui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "chat-ui",
+    "title": "Chat Application UI",
+    "description": "A frontend design for a chat application with message bubbles and notifications.",
+    "tags": ["frontend", "chat", "ui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ecommerce-ui",
+    "title": "E-Commerce Website UI",
+    "description": "A frontend shopping site with product listing, cart, and checkout pages.",
+    "tags": ["frontend", "ecommerce", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blog-website",
+    "title": "Blog Website",
+    "description": "A simple blog site layout with articles, categories, and comments UI.",
+    "tags": ["frontend", "blog", "responsive"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "image-gallery",
+    "title": "Image Gallery",
+    "description": "A photo gallery with grid layout, lightbox, and filtering options.",
+    "tags": ["frontend", "gallery", "responsive"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "portfolio-darkmode",
+    "title": "Portfolio with Dark Mode",
+    "description": "A portfolio website with a dark/light mode toggle.",
+    "tags": ["frontend", "theme", "responsive"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-dashboard",
+    "title": "Fitness Dashboard",
+    "description": "A dashboard to track workouts, calories, and fitness goals with charts.",
+    "tags": ["frontend", "fitness", "charts"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "timer-app",
+    "title": "Countdown Timer",
+    "description": "A countdown timer app with start, pause, and reset functionality.",
+    "tags": ["frontend", "timer", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "currency-converter",
+    "title": "Currency Converter",
+    "description": "A currency conversion tool with real-time exchange rates.",
+    "tags": ["frontend", "finance", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "note-taking",
+    "title": "Note-Taking App",
+    "description": "A simple app to create, edit, and delete notes stored in local storage.",
+    "tags": ["frontend", "notes", "storage"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "job-board",
+    "title": "Job Board UI",
+    "description": "A job listing site UI with filtering by company, role, and location.",
+    "tags": ["frontend", "jobs", "ui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "news-app",
+    "title": "News Reader App",
+    "description": "A frontend app to display live news articles from an API.",
+    "tags": ["frontend", "api", "news"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "restaurant-menu",
+    "title": "Restaurant Menu UI",
+    "description": "A digital restaurant menu with categories, images, and cart preview.",
+    "tags": ["frontend", "food", "ui"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "task-manager",
+    "title": "Task Manager",
+    "description": "A frontend app to manage tasks with deadlines and priorities.",
+    "tags": ["frontend", "productivity", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "event-landing",
+    "title": "Event Landing Page",
+    "description": "A responsive landing page for events with countdown and schedule.",
+    "tags": ["frontend", "landing-page", "events"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "chatbot-ui",
+    "title": "Chatbot UI",
+    "description": "A chatbot frontend interface for user queries and responses.",
+    "tags": ["frontend", "chatbot", "ui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "shopping-cart",
+    "title": "Shopping Cart UI",
+    "description": "Frontend-only shopping cart with product addition and removal.",
+    "tags": ["frontend", "ecommerce", "cart"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "travel-website",
+    "title": "Travel Website",
+    "description": "A travel booking website UI with destinations, packages, and booking forms.",
+    "tags": ["frontend", "travel", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "landing-page",
+    "title": "Business Landing Page",
+    "description": "A modern landing page template for startups and businesses.",
+    "tags": ["frontend", "business", "responsive"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "form-validator",
+    "title": "Form Validation",
+    "description": "A form with real-time input validation and error handling.",
+    "tags": ["frontend", "forms", "validation"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-streaming",
+    "title": "Music Streaming UI",
+    "description": "A frontend design for music streaming with playlists and player controls.",
+    "tags": ["frontend", "media", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "language-translator",
+    "title": "Language Translator",
+    "description": "A web app to translate text between languages using an API.",
+    "tags": ["frontend", "api", "translator"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fashion-store",
+    "title": "Fashion Store UI",
+    "description": "An e-commerce fashion store with product filters and shopping cart.",
+    "tags": ["frontend", "ecommerce", "fashion"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crypto-tracker",
+    "title": "Crypto Price Tracker",
+    "description": "A crypto dashboard that fetches live cryptocurrency prices.",
+    "tags": ["frontend", "finance", "crypto"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "movie-search",
+    "title": "Movie Search App",
+    "description": "A web app to search and display movies using a public API.",
+    "tags": ["frontend", "api", "movies"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "survey-form",
+    "title": "Survey Form",
+    "description": "A styled survey form with multiple question types and validation.",
+    "tags": ["frontend", "forms", "survey"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "digital-clock",
+    "title": "Digital Clock",
+    "description": "A live updating digital clock with date and time.",
+    "tags": ["frontend", "clock", "utility"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "parallax-site",
+    "title": "Parallax Scrolling Website",
+    "description": "A site demonstrating smooth parallax scrolling effects.",
+    "tags": ["frontend", "animation", "design"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "contact-manager",
+    "title": "Contact Manager",
+    "description": "A frontend app to store and edit contact information using local storage.",
+    "tags": ["frontend", "contacts", "storage"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "image-editor",
+    "title": "Image Editor",
+    "description": "A web-based tool to apply filters, crop, and adjust images.",
+    "tags": ["frontend", "media", "canvas"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "covid-tracker",
+    "title": "COVID-19 Tracker",
+    "description": "A dashboard showing COVID-19 stats and graphs from APIs.",
+    "tags": ["frontend", "api", "health"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "kanban-board",
+    "title": "Kanban Board",
+    "description": "A drag-and-drop task board inspired by Trello.",
+    "tags": ["frontend", "productivity", "drag-drop"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "resume-builder",
+    "title": "Resume Builder",
+    "description": "A tool to build and download resumes from templates.",
+    "tags": ["frontend", "resume", "forms"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-delivery",
+    "title": "Food Delivery UI",
+    "description": "A food delivery website UI with restaurants, menus, and order tracking.",
+    "tags": ["frontend", "food", "delivery"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "pet-adoption",
+    "title": "Pet Adoption Website",
+    "description": "A site to browse adoptable pets with details and contact forms.",
+    "tags": ["frontend", "pets", "responsive"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "description": "A weather dashboard with maps, forecasts, and temperature charts.",
+    "tags": ["frontend", "weather", "dashboard"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "stock-portfolio",
+    "title": "Stock Portfolio Tracker",
+    "description": "A frontend app to track stock investments with charts.",
+    "tags": ["frontend", "finance", "stocks"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "instagram-clone",
+    "title": "Instagram Clone UI",
+    "description": "A frontend clone of Instagram with feed, likes, and profile pages.",
+    "tags": ["frontend", "social", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "whatsapp-clone",
+    "title": "WhatsApp Clone UI",
+    "description": "A frontend UI clone of WhatsApp web with chat sidebar and messages.",
+    "tags": ["frontend", "chat", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "virtual-keyboard",
+    "title": "Virtual Keyboard",
+    "description": "An on-screen keyboard implemented in HTML, CSS, and JavaScript.",
+    "tags": ["frontend", "keyboard", "ui"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "spotify-clone",
+    "title": "Spotify Clone UI",
+    "description": "A music streaming frontend clone of Spotify with playlists and controls.",
+    "tags": ["frontend", "media", "ui"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "netflix-clone",
+    "title": "Netflix Clone UI",
+    "description": "A Netflix-style movie browsing interface with categories and trailers.",
+    "tags": ["frontend", "media", "ui"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -697,7 +4979,350 @@
           "description": "Marketplace platform with vendor onboarding, product listings, order management, and commission tracking.",
           "tags": ["marketplace", "vendors", "products", "orders", "commissions"],
           "difficulty": "hard"
-        }
+        },
+        {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "A fullstack shopping site with product catalog, cart, checkout, and payment gateway.",
+    "tags": ["fullstack", "ecommerce", "react", "node", "mongodb"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "social-network",
+    "title": "Social Networking App",
+    "description": "A social media platform with posts, comments, likes, and user authentication.",
+    "tags": ["fullstack", "social", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "job-portal",
+    "title": "Job Portal",
+    "description": "A fullstack platform where companies post jobs and applicants apply online.",
+    "tags": ["fullstack", "jobs", "springboot", "react"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "chat-app",
+    "title": "Real-Time Chat Application",
+    "description": "A fullstack chat app with WebSocket/Socket.IO for real-time messaging.",
+    "tags": ["fullstack", "chat", "node", "socketio"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "learning-platform",
+    "title": "Online Learning Platform",
+    "description": "A course platform with videos, quizzes, assignments, and progress tracking.",
+    "tags": ["fullstack", "education", "django", "react"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-delivery",
+    "title": "Food Delivery App",
+    "description": "A fullstack food ordering system with restaurants, menus, and delivery tracking.",
+    "tags": ["fullstack", "food", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "project-management",
+    "title": "Project Management Tool",
+    "description": "A fullstack tool for managing tasks, sprints, and team collaboration.",
+    "tags": ["fullstack", "productivity", "kanban"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-banking",
+    "title": "Online Banking System",
+    "description": "A banking application with accounts, transfers, and transaction history.",
+    "tags": ["fullstack", "finance", "security"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "event-booking",
+    "title": "Event Booking System",
+    "description": "A ticket booking app with events, seat selection, and payment integration.",
+    "tags": ["fullstack", "events", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "news-aggregator",
+    "title": "News Aggregator",
+    "description": "A fullstack app fetching and categorizing news articles with personalized feeds.",
+    "tags": ["fullstack", "news", "api"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "inventory-system",
+    "title": "Inventory Management System",
+    "description": "A fullstack tool to track stock, suppliers, and purchase orders.",
+    "tags": ["fullstack", "inventory", "business"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "health-tracker",
+    "title": "Health Tracker",
+    "description": "A fullstack app to log workouts, calories, and generate fitness reports.",
+    "tags": ["fullstack", "health", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "crm-system",
+    "title": "Customer Relationship Management",
+    "description": "A CRM tool to manage leads, sales, and customer interactions.",
+    "tags": ["fullstack", "crm", "enterprise"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "blog-platform",
+    "title": "Blog Platform",
+    "description": "A blogging site with markdown editor, comments, and authentication.",
+    "tags": ["fullstack", "blog", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "quiz-app",
+    "title": "Quiz Application",
+    "description": "A fullstack quiz app with question banks, scoring, and leaderboard.",
+    "tags": ["fullstack", "quiz", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ride-sharing",
+    "title": "Ride Sharing App",
+    "description": "A carpooling app with driver-passenger matching and fare calculation.",
+    "tags": ["fullstack", "transport", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "portfolio-builder",
+    "title": "Portfolio Builder",
+    "description": "A platform for users to create and customize personal portfolio websites.",
+    "tags": ["fullstack", "portfolio", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "video-streaming",
+    "title": "Video Streaming Platform",
+    "description": "A fullstack video sharing and streaming app like YouTube.",
+    "tags": ["fullstack", "media", "streaming"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "recipe-app",
+    "title": "Recipe Sharing Platform",
+    "description": "A community app where users share and rate recipes.",
+    "tags": ["fullstack", "food", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "forum-app",
+    "title": "Discussion Forum",
+    "description": "A platform for users to post, comment, and discuss topics.",
+    "tags": ["fullstack", "forum", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "A fullstack finance app to track income, expenses, and budgets.",
+    "tags": ["fullstack", "finance", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "travel-booking",
+    "title": "Travel Booking System",
+    "description": "A platform to book hotels, flights, and travel packages.",
+    "tags": ["fullstack", "travel", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-blog",
+    "title": "Food Blog with Recipes",
+    "description": "A fullstack food blog with categories, ratings, and search functionality.",
+    "tags": ["fullstack", "food", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ticket-system",
+    "title": "Support Ticket System",
+    "description": "A helpdesk platform where users raise and track support tickets.",
+    "tags": ["fullstack", "support", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "school-portal",
+    "title": "School Management Portal",
+    "description": "A fullstack system for managing students, teachers, and courses.",
+    "tags": ["fullstack", "education", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-streaming",
+    "title": "Music Streaming App",
+    "description": "A Spotify-like app with playlists, tracks, and streaming functionality.",
+    "tags": ["fullstack", "music", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "real-estate",
+    "title": "Real Estate Platform",
+    "description": "A fullstack site for listing properties, agents, and rental bookings.",
+    "tags": ["fullstack", "real-estate", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "quiz-competition",
+    "title": "Quiz Competition Platform",
+    "description": "A multi-user quiz competition with real-time score updates.",
+    "tags": ["fullstack", "quiz", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "fitness-app",
+    "title": "Fitness App",
+    "description": "A fullstack fitness app with workout plans, diet tracking, and progress charts.",
+    "tags": ["fullstack", "fitness", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "bookstore",
+    "title": "Online Bookstore",
+    "description": "A fullstack bookstore with product search, cart, and checkout.",
+    "tags": ["fullstack", "books", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "donation-platform",
+    "title": "Donation Platform",
+    "description": "A platform for users to donate and track contributions.",
+    "tags": ["fullstack", "donation", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hotel-management",
+    "title": "Hotel Management System",
+    "description": "A system to handle bookings, billing, and room availability.",
+    "tags": ["fullstack", "hospitality", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "crypto-tracker",
+    "title": "Cryptocurrency Tracker",
+    "description": "A crypto dashboard with live price updates and user portfolios.",
+    "tags": ["fullstack", "crypto", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "auction-platform",
+    "title": "Auction Platform",
+    "description": "A bidding system where users can auction items and place bids.",
+    "tags": ["fullstack", "auction", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "file-sharing",
+    "title": "File Sharing Platform",
+    "description": "A cloud-based app to upload, download, and share files securely.",
+    "tags": ["fullstack", "cloud", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "online-exam",
+    "title": "Online Examination System",
+    "description": "A fullstack exam system with question banks and grading automation.",
+    "tags": ["fullstack", "education", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "restaurant-app",
+    "title": "Restaurant Reservation System",
+    "description": "A fullstack app to book tables and order meals online.",
+    "tags": ["fullstack", "food", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "portfolio-cms",
+    "title": "Portfolio CMS",
+    "description": "A fullstack content management system for personal websites.",
+    "tags": ["fullstack", "cms", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "hrms",
+    "title": "HR Management System",
+    "description": "A system to handle employee records, payroll, and leave management.",
+    "tags": ["fullstack", "hr", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "ticket-booking",
+    "title": "Movie Ticket Booking",
+    "description": "A movie ticket booking system with seat selection and payments.",
+    "tags": ["fullstack", "movies", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "donor-app",
+    "title": "Blood Donation App",
+    "description": "A platform for connecting donors and recipients with location tracking.",
+    "tags": ["fullstack", "health", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "online-marketplace",
+    "title": "Online Marketplace",
+    "description": "A multi-vendor marketplace with product listings and payments.",
+    "tags": ["fullstack", "ecommerce", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "document-collab",
+    "title": "Document Collaboration Tool",
+    "description": "A Google Docs-like app for real-time document editing.",
+    "tags": ["fullstack", "collaboration", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "microblogging",
+    "title": "Microblogging Platform",
+    "description": "A Twitter-like platform with tweets, hashtags, and followers.",
+    "tags": ["fullstack", "social", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "donation-tracker",
+    "title": "Charity Donation Tracker",
+    "description": "A fullstack app to track donations and generate impact reports.",
+    "tags": ["fullstack", "charity", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "online-store",
+    "title": "Clothing Store",
+    "description": "A fullstack clothing shop with cart, checkout, and admin panel.",
+    "tags": ["fullstack", "ecommerce", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "elearning",
+    "title": "E-Learning System",
+    "description": "An LMS with courses, assignments, and certification.",
+    "tags": ["fullstack", "education", "mern"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "budget-app",
+    "title": "Budget Planning App",
+    "description": "A budgeting tool for income, expenses, and savings goals.",
+    "tags": ["fullstack", "finance", "mern"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "mentorship-platform",
+    "title": "Mentorship Platform",
+    "description": "A platform to connect mentors and mentees with session booking.",
+    "tags": ["fullstack", "mentorship", "mern"],
+    "difficulty": "hard"
+  }
       ]
     },
     {
@@ -747,7 +5372,343 @@
           "description": "Tool for testing REST APIs with request building, response analysis, authentication, and automated testing.",
           "tags": ["api", "testing", "rest", "automation", "development"],
           "difficulty": "medium"
-        }
+        },
+        {
+    "id": "fibonacci-sequence",
+    "title": "Fibonacci Sequence Generator",
+    "description": "Generate the first N Fibonacci numbers using iterative and recursive methods.",
+    "tags": ["practice", "math", "recursion", "loops"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prime-checker",
+    "title": "Prime Number Checker",
+    "description": "Check if a given number is prime using different algorithms.",
+    "tags": ["practice", "math", "loops"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "palindrome-checker",
+    "title": "Palindrome Checker",
+    "description": "Determine if a string or number is a palindrome.",
+    "tags": ["practice", "strings", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "factorial-calculator",
+    "title": "Factorial Calculator",
+    "description": "Calculate the factorial of a number using recursion and iteration.",
+    "tags": ["practice", "math", "recursion"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "armstrong-number",
+    "title": "Armstrong Number Checker",
+    "description": "Check if a number is an Armstrong number (narcissistic number).",
+    "tags": ["practice", "math", "numbers"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "anagram-checker",
+    "title": "Anagram Checker",
+    "description": "Check if two strings are anagrams of each other.",
+    "tags": ["practice", "strings", "sorting"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "string-reversal",
+    "title": "String Reversal",
+    "description": "Reverse a string using iterative and recursive approaches.",
+    "tags": ["practice", "strings", "recursion"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "word-counter",
+    "title": "Word Counter",
+    "description": "Count the number of words, characters, and sentences in a text.",
+    "tags": ["practice", "strings", "text"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "binary-search",
+    "title": "Binary Search",
+    "description": "Implement binary search on a sorted list of numbers.",
+    "tags": ["practice", "algorithms", "search"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "linear-search",
+    "title": "Linear Search",
+    "description": "Search for an element in an unsorted array using linear search.",
+    "tags": ["practice", "algorithms", "search"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "sorting-algorithms",
+    "title": "Sorting Algorithms",
+    "description": "Implement bubble sort, selection sort, insertion sort, and quicksort.",
+    "tags": ["practice", "algorithms", "sorting"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "matrix-multiplication",
+    "title": "Matrix Multiplication",
+    "description": "Multiply two matrices and display the result.",
+    "tags": ["practice", "math", "matrix"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calculator-cli",
+    "title": "CLI Calculator",
+    "description": "A command-line calculator that performs basic operations.",
+    "tags": ["practice", "math", "cli"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "temperature-converter",
+    "title": "Temperature Converter",
+    "description": "Convert temperatures between Celsius, Fahrenheit, and Kelvin.",
+    "tags": ["practice", "math", "converter"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "tic-tac-toe",
+    "title": "Tic-Tac-Toe Game",
+    "description": "A simple console-based two-player tic-tac-toe game.",
+    "tags": ["practice", "game", "logic"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "guessing-game",
+    "title": "Number Guessing Game",
+    "description": "A game where the user guesses a randomly generated number.",
+    "tags": ["practice", "game", "random"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "pattern-printing",
+    "title": "Pattern Printing",
+    "description": "Generate star, number, and pyramid patterns using loops.",
+    "tags": ["practice", "loops", "patterns"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "gcd-lcm",
+    "title": "GCD and LCM Calculator",
+    "description": "Find the greatest common divisor and least common multiple of two numbers.",
+    "tags": ["practice", "math", "numbers"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "prime-factors",
+    "title": "Prime Factorization",
+    "description": "Find all prime factors of a given number.",
+    "tags": ["practice", "math", "numbers"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "roman-converter",
+    "title": "Roman Numeral Converter",
+    "description": "Convert numbers into Roman numerals and vice versa.",
+    "tags": ["practice", "math", "converter"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "vowel-counter",
+    "title": "Vowel Counter",
+    "description": "Count the number of vowels and consonants in a string.",
+    "tags": ["practice", "strings", "text"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "pangram-checker",
+    "title": "Pangram Checker",
+    "description": "Check if a sentence contains all letters of the alphabet.",
+    "tags": ["practice", "strings", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "unique-elements",
+    "title": "Unique Elements Finder",
+    "description": "Find unique and duplicate elements in an array.",
+    "tags": ["practice", "arrays", "logic"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "linked-list",
+    "title": "Linked List Implementation",
+    "description": "Implement a singly linked list with insert, delete, and search functions.",
+    "tags": ["practice", "data-structures", "linked-list"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stack-implementation",
+    "title": "Stack Implementation",
+    "description": "Implement stack operations (push, pop, peek) using arrays or linked lists.",
+    "tags": ["practice", "data-structures", "stack"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "queue-implementation",
+    "title": "Queue Implementation",
+    "description": "Implement queue operations (enqueue, dequeue) with arrays or linked lists.",
+    "tags": ["practice", "data-structures", "queue"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "binary-tree",
+    "title": "Binary Tree Traversal",
+    "description": "Implement inorder, preorder, and postorder traversals of a binary tree.",
+    "tags": ["practice", "data-structures", "trees"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "binary-search-tree",
+    "title": "Binary Search Tree",
+    "description": "Build a binary search tree with insert, delete, and search functions.",
+    "tags": ["practice", "data-structures", "bst"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "graph-traversal",
+    "title": "Graph Traversal",
+    "description": "Implement BFS and DFS algorithms on graphs.",
+    "tags": ["practice", "data-structures", "graphs"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "dijkstra",
+    "title": "Dijkstra’s Algorithm",
+    "description": "Find the shortest path in a weighted graph using Dijkstra’s algorithm.",
+    "tags": ["practice", "algorithms", "graphs"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "description": "Solve a Sudoku puzzle using backtracking.",
+    "tags": ["practice", "algorithms", "backtracking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "maze-solver",
+    "title": "Maze Solver",
+    "description": "Find a path through a maze using DFS or BFS.",
+    "tags": ["practice", "algorithms", "backtracking"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "string-permutations",
+    "title": "String Permutations",
+    "description": "Generate all permutations of a given string.",
+    "tags": ["practice", "strings", "recursion"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-compressor",
+    "title": "File Compressor",
+    "description": "Implement a simple file compression algorithm (e.g., Huffman coding).",
+    "tags": ["practice", "algorithms", "files"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "banking-system",
+    "title": "Simple Banking System",
+    "description": "A CLI banking app with deposits, withdrawals, and balance checks.",
+    "tags": ["practice", "finance", "cli"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "library-system",
+    "title": "Library Management System",
+    "description": "A console app to manage book checkouts, returns, and catalog.",
+    "tags": ["practice", "library", "cli"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "email-validator",
+    "title": "Email Validator",
+    "description": "Check if an email address is valid using regex.",
+    "tags": ["practice", "validation", "regex"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "url-shortener",
+    "title": "URL Shortener",
+    "description": "Implement a basic URL shortening service.",
+    "tags": ["practice", "web", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "encryption-tool",
+    "title": "Basic Encryption Tool",
+    "description": "Encrypt and decrypt text using Caesar cipher or other algorithms.",
+    "tags": ["practice", "security", "strings"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "json-parser",
+    "title": "JSON Parser",
+    "description": "Implement a simple JSON parser to read and process JSON data.",
+    "tags": ["practice", "files", "json"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "markdown-viewer",
+    "title": "Markdown Viewer",
+    "description": "Convert markdown text to formatted HTML.",
+    "tags": ["practice", "markdown", "text"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "description": "Convert units of measurement like length, weight, and time.",
+    "tags": ["practice", "math", "converter"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "data-visualizer",
+    "title": "Data Visualizer",
+    "description": "Read a dataset and display visualizations like bar and pie charts.",
+    "tags": ["practice", "data", "charts"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "description": "Generate secure random passwords with given length and complexity.",
+    "tags": ["practice", "security", "random"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "log-analyzer",
+    "title": "Log File Analyzer",
+    "description": "Parse and analyze logs to extract useful statistics.",
+    "tags": ["practice", "files", "logs"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "calendar-app",
+    "title": "Calendar Application",
+    "description": "A simple calendar with event creation and reminders.",
+    "tags": ["practice", "calendar", "utility"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "file-explorer",
+    "title": "File Explorer",
+    "description": "A basic console file explorer with navigation and file details.",
+    "tags": ["practice", "files", "cli"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "stopwatch",
+    "title": "Stopwatch",
+    "description": "A console stopwatch with start, stop, and reset functionality.",
+    "tags": ["practice", "time", "utility"],
+    "difficulty": "easy"
+  }
       ]
     }
   ]
